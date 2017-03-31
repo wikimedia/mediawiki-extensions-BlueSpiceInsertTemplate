@@ -1,0 +1,64 @@
+{
+  "name": "BlueSpiceInsertTemplate",
+  "version": "2.27.0",
+  "url": "",
+  "author": [
+    "Josef Konrad",
+    "Robert Vogel"
+  ],
+  "descriptionmsg": "bs-inserttemplate-desc",
+  "type": "bluespice",
+  "license-name": "GPL-2.0+",
+  "bsgExtensions": {
+    "BlueSpiceInsertTemplate": {
+      "className": "InsertTemplate",
+      "extPath": "/BlueSpiceInsertTemplate"
+    }
+  },
+  "MessagesDirs": {
+    "InsertTemplate": [
+      "i18n"
+    ]
+  },
+  "config": {
+    "_prefix": "bsgInsertTemplate",
+    "Favorites":  []
+  },
+  "APIModules": {
+    "bs-inserttemplate-data-store": "BSApiInsertTemplateDataStore"
+  },
+  "AutoloadClasses": {
+    "InsertTemplate": "BlueSpiceInsertTemplate.class.php",
+    "BSApiInsertTemplateDataStore": "includes/api/BSApiInsertTemplateDataStore.php"
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "resources",
+    "remoteExtPath": "BlueSpiceInsertTemplate/resources"
+  },
+  "ResourceModules": {
+    "ext.bluespice.insertTemplate": {
+      "scripts": [
+        "bluespice.insertTemplate.js"
+      ],
+      "styles": [
+        "bluespice.insertTemplate.css"
+      ],
+      "messages": [
+        "bs-inserttemplate-desc",
+        "bs-inserttemplate-insert-template",
+        "bs-inserttemplate-button-template-title",
+        "bs-inserttemplate-dialog-title",
+        "bs-inserttemplate-label-first",
+        "bs-inserttemplate-label-second",
+        "bs-inserttemplate-label-desc"
+      ],
+      "dependencies": [
+        "ext.bluespice"
+      ]
+    },
+    "ext.bluespice.insertTemplate.styles": {
+      "styles": []
+    }
+  },
+  "manifest_version": 1
+}

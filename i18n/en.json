@@ -1,0 +1,14 @@
+{
+  "@metadata": {
+    "authors": [
+      "Josef Konrad <konrad@hallowelt.com>"
+    ]
+  },
+  "bs-inserttemplate-desc": "Dialog to insert a template",
+  "bs-inserttemplate-insert-template": "Insert template",
+  "bs-inserttemplate-button-template-title": "Insert or edit template",
+  "bs-inserttemplate-dialog-title": "Insert template",
+  "bs-inserttemplate-label-first": "Choose template",
+  "bs-inserttemplate-label-second" : "Modify template",
+  "bs-inserttemplate-label-desc" : "Preview"
+}

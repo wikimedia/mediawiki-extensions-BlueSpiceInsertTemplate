@@ -1,0 +1,14 @@
+{
+  "@metadata": {
+    "authors": [
+      "Josef Konrad <konrad@hallowelt.com>"
+    ]
+  },
+  "bs-inserttemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
+  "bs-inserttemplate-insert-template": "Vorlage einfügen",
+  "bs-inserttemplate-button-template-title": "Vorlage einfügen / bearbeiten",
+  "bs-inserttemplate-dialog-title": "Vorlage einfügen",
+  "bs-inserttemplate-label-first": "Vorlage auswählen",
+  "bs-inserttemplate-label-second" : "Vorlage bearbeiten",
+  "bs-inserttemplate-label-desc" : "Vorschau",
+}
