@@ -4,11 +4,11 @@
       "Josef Konrad <konrad@hallowelt.com>"
     ]
   },
-  "bs-inserttemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
-  "bs-inserttemplate-insert-template": "Vorlage einfügen",
-  "bs-inserttemplate-button-template-title": "Vorlage einfügen / bearbeiten",
-  "bs-inserttemplate-dialog-title": "Vorlage einfügen",
-  "bs-inserttemplate-label-first": "Vorlage auswählen",
-  "bs-inserttemplate-label-second" : "Vorlage bearbeiten",
-  "bs-inserttemplate-label-desc" : "Vorschau",
+  "bs-insertTemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
+  "bs-insertTemplate-insert-template": "Vorlage einfügen",
+  "bs-insertTemplate-button-template-title": "Vorlage einfügen / bearbeiten",
+  "bs-insertTemplate-dialog-title": "Vorlage einfügen",
+  "bs-insertTemplate-label-first": "Vorlage auswählen",
+  "bs-insertTemplate-label-second" : "Vorlage bearbeiten",
+  "bs-insertTemplate-label-desc" : "Vorschau",
 }

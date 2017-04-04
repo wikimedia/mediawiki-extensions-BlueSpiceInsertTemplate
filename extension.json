@@ -25,11 +25,11 @@
     "Favorites":  []
   },
   "APIModules": {
-    "bs-inserttemplate-data-store": "BSApiInsertTemplateDataStore"
+    "bs-insertTemplate-data-store": "BSApiInsertTemplateTemplateStore"
   },
   "AutoloadClasses": {
     "InsertTemplate": "BlueSpiceInsertTemplate.class.php",
-    "BSApiInsertTemplateDataStore": "includes/api/BSApiInsertTemplateDataStore.php"
+    "BSApiInsertTemplateTemplateStore": "includes/api/BSApiInsertTemplateTemplateStore.php"
   },
   "ResourceFileModulePaths": {
     "localBasePath": "resources",
@@ -44,13 +44,13 @@
         "bluespice.insertTemplate.css"
       ],
       "messages": [
-        "bs-inserttemplate-desc",
-        "bs-inserttemplate-insert-template",
-        "bs-inserttemplate-button-template-title",
-        "bs-inserttemplate-dialog-title",
-        "bs-inserttemplate-label-first",
-        "bs-inserttemplate-label-second",
-        "bs-inserttemplate-label-desc"
+        "bs-insertTemplate-desc",
+        "bs-insertTemplate-insert-template",
+        "bs-insertTemplate-button-template-title",
+        "bs-insertTemplate-dialog-title",
+        "bs-insertTemplate-label-first",
+        "bs-insertTemplate-label-second",
+        "bs-insertTemplate-label-desc"
       ],
       "dependencies": [
         "ext.bluespice"

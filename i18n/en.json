@@ -4,11 +4,11 @@
       "Josef Konrad <konrad@hallowelt.com>"
     ]
   },
-  "bs-inserttemplate-desc": "Dialog to insert a template",
-  "bs-inserttemplate-insert-template": "Insert template",
-  "bs-inserttemplate-button-template-title": "Insert or edit template",
-  "bs-inserttemplate-dialog-title": "Insert template",
-  "bs-inserttemplate-label-first": "Choose template",
-  "bs-inserttemplate-label-second" : "Modify template",
-  "bs-inserttemplate-label-desc" : "Preview"
+  "bs-insertTemplate-desc": "Dialog to insert a template",
+  "bs-insertTemplate-insert-template": "Insert template",
+  "bs-insertTemplate-button-template-title": "Insert or edit template",
+  "bs-insertTemplate-dialog-title": "Insert template",
+  "bs-insertTemplate-label-first": "Choose template",
+  "bs-insertTemplate-label-second" : "Modify template",
+  "bs-insertTemplate-label-desc" : "Preview"
 }

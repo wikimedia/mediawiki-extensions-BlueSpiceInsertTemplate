@@ -1,29 +1,25 @@
-//Wire up buttons in ExtendedEditbar
-$(document).on( 'click', '#bs-editbutton-inserttemplate', function( e ){
+$(document).on( 'click', '#bs-editButton-insertTemplate', function( e ){
     var me = this;
 
-    var myDiag = Ext.create( 'BS.BlueSpiceInsertTemplate.dialog.InsertTemplate' );
+    var insertTemplateDialog = Ext.create( 'BS.BlueSpiceInsertTemplate.dialog.InsertTemplate' );
 
-    myDiag.on( 'ok', BsInsertTemplateWikiTextConnector.applyData );
+    insertTemplateDialog.on( 'ok', BsInsertTemplateWikiTextConnector.applyData );
 
-    myDiag.setData(
+    insertTemplateDialog.setData(
         BsInsertTemplateWikiTextConnector.getData()
     );
 
-    myDiag.show();
+    insertTemplateDialog.show();
 
     e.preventDefault();
     return false;
 });
 
 $(document).bind('BsVisualEditorActionsInit', function( event, plugin, buttons, commands, menus ){
-	var t = plugin;
-	var ed = t.editor;
-
 	menus.push({
 		menuId: 'bsContextTemplate',
 		menuConfig: {
-			text: mw.message('bs-inserttemplate-button-template-title').plain(),
+			text: mw.message('bs-insertTemplate-button-template-title').plain(),
 			icon: 'template',
 			cmd : 'mceBsTemplate'
 		}
@@ -31,7 +27,7 @@ $(document).bind('BsVisualEditorActionsInit', function( event, plugin, buttons, 
 	buttons.push({
 		buttonId: 'bstemplate',
 		buttonConfig: {
-			title : mw.message('bs-inserttemplate-button-template-title').plain(),
+			title : mw.message('bs-insertTemplate-button-template-title').plain(),
 			cmd : 'mceBsTemplate',
 			icon: 'template',
 			onPostRender: function() {
@@ -55,17 +51,18 @@ $(document).bind('BsVisualEditorActionsInit', function( event, plugin, buttons, 
 
             BsInsertTemplateVisualEditorConnector.caller = this;
 
-            var myDiag = Ext.create( 'BS.BlueSpiceInsertTemplate.dialog.InsertTemplate' );
+            var insertTemplateDialog = Ext.create( 'BS.BlueSpiceInsertTemplate.dialog.InsertTemplate' );
 
-            myDiag.on( 'ok', BsInsertTemplateVisualEditorConnector.applyData );
+            insertTemplateDialog.on( 'ok', BsInsertTemplateVisualEditorConnector.applyData );
 
-            myDiag.setData(
+            insertTemplateDialog.setData(
                 BsInsertTemplateVisualEditorConnector.getData()
             );
 
-            myDiag.show();
+            insertTemplateDialog.show();
 
-			return;
+            e.preventDefault();
+            return false;
 		}
 	});
 });
@@ -95,10 +92,9 @@ var BsInsertTemplateVisualEditorConnector = {
         me.data.id = node.getAttribute('data-bs-id');
         me.data.type = node.getAttribute('data-bs-type');
         me.data.name = node.getAttribute('data-bs-name');
-        var currentCode = '';
 
         var templates = me.caller.plugins.bswikicode.getTemplateList();
-        currentCode = templates[me.data.id];
+        var currentCode = templates[me.data.id];
 
         me.data.code = currentCode;
         return me.data;
@@ -110,8 +106,6 @@ var BsInsertTemplateVisualEditorConnector = {
         me.caller.selection.moveToBookmark( me.bookmark );
         var selectedNode = me.caller.selection.getNode();
         var code = data.code;
-        var spanAttrs = {};
-        var spanContent = '';
 
         var specialtags = me.caller.plugins.bswikicode.getTemplateList();
 		if( me.data.id ) {
@@ -121,14 +115,14 @@ var BsInsertTemplateVisualEditorConnector = {
 			specialtags.push(code);
 		}
 
-		spanAttrs = {
+		var spanAttrs = {
 			'id': 'bs_template:@@@TPL'+me.data.id+'@@@',
 			'class':'template',
 			'data-bs-name': me.data.name,
 			'data-bs-type': 'template',
 			'data-bs-id': me.data.id
 		};
-		spanContent = '{{ '+me.data.name+' }}';
+		var spanContent = '{{ '+me.data.name+' }}';
 		spanAttrs['class'] += ' mceNonEditable';
 
         var newSpanNode = null;

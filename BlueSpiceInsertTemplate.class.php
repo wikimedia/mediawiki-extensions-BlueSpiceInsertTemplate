@@ -3,7 +3,7 @@
 /**
  * insertTemplate extension for BlueSpice
  *
- * Dialogbox to upload files and enter a file link.
+ * Dialogbox to insert templates.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,21 +22,15 @@
  * This file is part of BlueSpice for MediaWiki
  * For further information visit http://www.blue-spice.org
  *
- * @author     Markus Glaser <glaser@hallowelt.com>
- * @author     Sebastian Ulbricht
- * @author     Tobias Weichart <weichart@hallowelt.com>
- * @version    2.23.1
- * @package    BlueSpice_Extensions
- * @subpackage insertTemplate
- * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
+ * @author     Josef Konrad <konrad@hallowelt.com>
+ * @version    2.27.0
+ * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
  * @filesource
  */
 
 /**
- * Class for file upload and management assistent
- * @package BlueSpice_Extensions
- * @subpackage insertTemplate
+ * Class for insert templates.
  */
 class InsertTemplate extends BsExtensionMW {
 	/**
@@ -53,10 +47,10 @@ class InsertTemplate extends BsExtensionMW {
 
 	/**
 	 * Hook Handler for VisualEditorConfig Hook
-	 * @param Array $aConfigStandard reference
-	 * @param Array $aConfigOverwrite reference
-	 * @param Array &$aLoaderUsingDeps reference
-	 * @return boolean always true to keep hook alife
+	 * @param array $aConfigStandard reference
+	 * @param array $aConfigOverwrite reference
+	 * @param array &$aLoaderUsingDeps reference
+	 * @return boolean always true to keep hook alive
 	 */
 	public function onVisualEditorConfig( &$aConfigStandard, &$aConfigOverwrite, &$aLoaderUsingDeps ) {
 		$aLoaderUsingDeps[] = 'ext.bluespice.insertTemplate';
@@ -69,14 +63,20 @@ class InsertTemplate extends BsExtensionMW {
 		return true;
 	}
 
+	/**
+	 * Hook Handler to add the insert template button to the editor.
+	 * @param array $aRows
+	 * @param array $aButtonCfgs
+	 * @return boolean always true to keep hook alive
+	 */
 	public function onBSExtendedEditBarBeforeEditToolbar( &$aRows, &$aButtonCfgs ) {
-		$this->getOutput()->addModuleStyles('ext.bluespice.insertTemplate.styles');
-		$this->getOutput()->addModules('ext.bluespice.insertTemplate');
+		$this->getOutput()->addModuleStyles( 'ext.bluespice.insertTemplate.styles' );
+		$this->getOutput()->addModules( 'ext.bluespice.insertTemplate' );
 
-		$aRows[0]['dialogs'][100] = 'bs-editbutton-inserttemplate';
+		$aRows[0]['dialogs'][100] = 'bs-editButton-insertTemplate';
 
-		$aButtonCfgs['bs-editbutton-inserttemplate'] = array(
-			'tip' => wfMessage( 'bs-inserttemplate-insert-template' )->plain()
+		$aButtonCfgs['bs-editButton-insertTemplate'] = array(
+			'tip' => wfMessage( 'bs-insertTemplate-insert-template' )->plain()
 		);
 
 		return true;

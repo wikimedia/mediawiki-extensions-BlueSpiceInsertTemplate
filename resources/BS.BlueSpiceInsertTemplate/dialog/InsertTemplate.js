@@ -3,17 +3,14 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
     bodyStyle: {
         backgroundColor: "#fff"
     },
-    requires:[
-        'Ext.Button'
-    ],
     modal: true,
     width: 600,
     height: 500,
     layout: 'border',
-    title: mw.message('bs-inserttemplate-dialog-title').plain(),
+    title: mw.message('bs-insertTemplate-dialog-title').plain(),
     afterInitComponent: function() {
         this.templateStore = Ext.create( 'BS.store.BSApi', {
-            apiAction: 'bs-inserttemplate-data-store',
+            apiAction: 'bs-insertTemplate-data-store',
             fields: ['id', 'name', 'desc', 'code' ],
             submitValue: false,
             remoteSort: false,
@@ -28,15 +25,13 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
                 reader: {
                     type: 'json',
                     root: 'results',
-                    idProperty: 'name'//,
+                    idProperty: 'name'
                 }
             },
             sortInfo: {
                 field: 'name'
             }
         });
-
-        this.templateStore.on( 'load', this.onStoreLoad, this );
 
         this.templateGrid = Ext.create( 'Ext.form.ComboBox', {
             triggerAction: 'all',
@@ -54,14 +49,13 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
 
         this.syntaxTextArea = Ext.create( 'Ext.form.TextArea', {
             hideLabel: true,
-            name: 'syntaxTextArea',
             flex: 1
         });
 
         this.syntaxTextArea.on( 'blur', this.onSyntaxTextAreaBlur, this );
 
         this.syntaxPanel = Ext.create('Ext.Panel', {
-            title: mw.message('bs-inserttemplate-label-second').plain(),
+            title: mw.message('bs-insertTemplate-label-second').plain(),
             border: true,
             flex: 1,
             layout: 'fit',
@@ -69,7 +63,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
         });
 
         this.previewPanel = Ext.create('Ext.Panel', {
-            title: mw.message('bs-inserttemplate-label-desc').plain(),
+            title: mw.message('bs-insertTemplate-label-desc').plain(),
             tools: [{
                 type: 'refresh'
             }],
@@ -86,7 +80,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
                 align: 'stretch'
             },
             items: [
-                Ext.create( 'Ext.form.Label', { text: mw.message('bs-inserttemplate-label-first').plain() }),
+                Ext.create( 'Ext.form.Label', { text: mw.message('bs-insertTemplate-label-first').plain() }),
                 this.templateGrid
             ]
         });
@@ -100,7 +94,6 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
                 align: 'stretch'
             },
             items: [
-                // this.templateGrid,
                 this.syntaxPanel
             ]
         });
@@ -156,17 +149,10 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
         this.callParent( arguments );
     },
 
-    onStoreLoad: function( store, records, options ) {
-        this.templateStore.sort( 'name', 'ASC' );
-    },
-
-    // onRowSelect: function( grid, records, index, eOpts ) {
-    onRowSelect: function( combo, records, eOpts ) {
+    onRowSelect: function( combo, records ) {
         var data = {
             desc : records[0].get( 'desc' ),
-            // type : records[0].get( 'type' )
         };
-        // this.currentData.type = data.type;
         this.currentData.name = records[0].get( 'name' );
 
         this.setCommonFields( records[0].get( 'code' ), data );
@@ -174,41 +160,12 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
 
     setCommonFields: function( text, data ) {
         var desc = data.desc;
-        if ( typeof( data.examples ) !== "undefined" && data.examples != '' ) {
-            desc = desc
-                + '<br/><br/><strong>'
-                + mw.message( 'bs-inserttemplate-label-examples' ).plain()
-                + '</strong>';
-            for ( var i = 0; i < data.examples.length; i++ ) {
-                desc = desc + '<br/><br/>';
-                var example = data.examples[i];
-                if ( typeof( example.label ) !== "undefined" && example.label != '' ) {
-                    desc = desc
-                        + $( '<div>', { text: example.label } ).wrap( '<div/>' ).parent().html();
-                };
-                if ( typeof( example.code ) !== "undefined" && example.code != '' ) {
-                    desc = desc
-                        + $( '<code>', { style: 'white-space:pre-wrap;', text: example.code } ).wrap( '<div/>' ).parent().html();
-                }
-            }
-        }
-        if ( typeof( data.helplink ) !== "undefined" && data.helplink != '' ) {
-            desc = desc
-                + '<br/><br/><strong>'
-                + mw.message( 'bs-inserttemplate-label-see-also' ).plain()
-                + '</strong><br/><br/>'
-                + $( '<a>', { href: data.helplink, target: '_blank', text: data.helplink } ).wrap( '<div/>' ).parent().html();
-        }
         this.previewPanel.update( desc );
         this.syntaxTextArea.setValue( text );
         this.syntaxTextArea.focus();
 
         var start = text.indexOf('"') + 1;
         var end = text.indexOf('"', start );
-        // if( data.type != 'tag' ) {
-        //     start = start - 1;
-        //     end = end + 1;
-        // }
 
         this.syntaxTextArea.selectText(start, end);
     }
