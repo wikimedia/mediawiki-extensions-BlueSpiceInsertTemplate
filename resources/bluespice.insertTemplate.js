@@ -20,7 +20,7 @@ $(document).bind('BsVisualEditorActionsInit', function( event, plugin, buttons, 
 		menuId: 'bsContextTemplate',
 		menuConfig: {
 			text: mw.message('bs-insertTemplate-button-template-title').plain(),
-			icon: 'template',
+			icon: 'bstemplate',
 			cmd : 'mceBsTemplate'
 		}
 	});
@@ -29,7 +29,6 @@ $(document).bind('BsVisualEditorActionsInit', function( event, plugin, buttons, 
 		buttonConfig: {
 			title : mw.message('bs-insertTemplate-button-template-title').plain(),
 			cmd : 'mceBsTemplate',
-			icon: 'template',
 			onPostRender: function() {
 				var self = this;
 
@@ -60,8 +59,6 @@ $(document).bind('BsVisualEditorActionsInit', function( event, plugin, buttons, 
             );
 
             insertTemplateDialog.show();
-
-            e.preventDefault();
             return false;
 		}
 	});

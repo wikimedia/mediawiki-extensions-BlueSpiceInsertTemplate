@@ -1,9 +1,9 @@
 <?php
 
 /**
- * insertTemplate extension for BlueSpice
+ * InsertTemplate extension for BlueSpice
  *
- * Dialogbox to insert templates.
+ * Dialog to insert templates.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
  * For further information visit http://www.blue-spice.org
  *
  * @author     Josef Konrad <konrad@hallowelt.com>
- * @version    2.27.0
+ * @version    2.27.1
  * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
  * @filesource
@@ -34,7 +34,7 @@
  */
 class InsertTemplate extends BsExtensionMW {
 	/**
-	 * Initialise the insertTemplate extension
+	 * Initialize the InsertTemplate extension
 	 */
 	protected function initExt() {
 		wfProfileIn( 'BS::' . __METHOD__ );
@@ -76,7 +76,7 @@ class InsertTemplate extends BsExtensionMW {
 		$aRows[0]['dialogs'][100] = 'bs-editButton-insertTemplate';
 
 		$aButtonCfgs['bs-editButton-insertTemplate'] = array(
-			'tip' => wfMessage( 'bs-insertTemplate-insert-template' )->plain()
+			'tip' => wfMessage( 'bs-insertTemplate-button-template-title' )->plain()
 		);
 
 		return true;

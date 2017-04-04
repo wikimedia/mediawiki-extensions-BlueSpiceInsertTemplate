@@ -1,9 +1,9 @@
 a#bs-editButton-insertTemplate {
+	/*@embed*/
+	background-image: url(images/bs-inserttemplate-32.png);
 }
 
-.bs-insertfile-icon {
-    width: 48px;
-    height: 48px;
-    background-position: center center;
-    background-repeat: no-repeat;
+i.mce-i-bstemplate {
+	/*@embed*/
+	background-image: url(images/bs-inserttemplate-16.png);
 }

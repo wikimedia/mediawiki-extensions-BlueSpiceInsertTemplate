@@ -106,7 +106,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 	 * @param $oTemplateTitle
 	 * @return string
 	 */
-	private function parseTemplate( $oTemplateTitle ): string {
+	private function parseTemplate( $oTemplateTitle ) {
 		$oWikiPage = WikiPage::factory( $oTemplateTitle );
 		$oContent = $oWikiPage->getContent();
 
@@ -115,20 +115,25 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 		if ( $oContent instanceof WikitextContent ) {
 			$sWikiText = $oContent->getNativeData();
 
+			$aMatches = [];
 			if ( preg_match_all( '/\{\{\{(.*?)\}\}\}/', $sWikiText, $aMatches ) !== false ) {
 
-				$sWikiText = '{{' . $oTemplateTitle->getDBkey() . "\n";
 
-				foreach ( $aMatches[ 1 ] as $sMatch ) {
+				$sParameterList = '';
+
+				foreach ( $aMatches[1] as $sMatch ) {
 					$aMatch = explode( '|', $sMatch );
 
 					if ( count( $aMatch ) > 0 ) {
-						$sWikiText .= '|' . $aMatch[ 0 ] . '=' . $aMatch[ 1 ] . "\n";
+						$sParameterList .= '|' . $aMatch[ 0 ] . '=' . $aMatch[ 1 ] . "\n";
 					} else {
-						$sWikiText .= '|' . $sMatch . "=\n";
+						$sParameterList .= '|' . $sMatch . "=\n";
 					}
 				}
-
+				$sWikiText = '{{' . $oTemplateTitle->getDBkey();
+				if( !empty( $sParameterList ) ) {
+					$sWikiText .= "\n" . $sParameterList;
+				}
 				$sWikiText .= '}}';
 			}
 		}
