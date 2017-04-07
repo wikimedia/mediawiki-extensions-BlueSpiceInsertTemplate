@@ -6,7 +6,7 @@
 		"Josef Konrad",
 		"Robert Vogel"
 	],
-	"descriptionmsg": "bs-inserttemplate-desc",
+	"descriptionmsg": "bs-insertTemplate-desc",
 	"type": "bluespice",
 	"license-name": "GPL-2.0+",
 	"bsgExtensions": {
@@ -22,7 +22,7 @@
 	},
 	"config": {
 		"_prefix": "bsgInsertTemplate",
-		"Favorites":	[]
+		"Favorites": []
 	},
 	"APIModules": {
 		"bs-insertTemplate-data-store": "BSApiInsertTemplateTemplateStore"
@@ -43,9 +43,9 @@
 			"messages": [
 				"bs-insertTemplate-button-template-title",
 				"bs-insertTemplate-dialog-title",
-				"bs-insertTemplate-label-first",
-				"bs-insertTemplate-label-second",
-				"bs-insertTemplate-label-desc"
+				"bs-insertTemplate-dialog-label-choose",
+				"bs-insertTemplate-dialog-label-modify",
+				"bs-insertTemplate-dialog-label-preview"
 			],
 			"dependencies": [
 				"ext.bluespice"

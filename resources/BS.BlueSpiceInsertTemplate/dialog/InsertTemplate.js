@@ -55,7 +55,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
         this.syntaxTextArea.on( 'blur', this.onSyntaxTextAreaBlur, this );
 
         this.syntaxPanel = Ext.create('Ext.Panel', {
-            title: mw.message('bs-insertTemplate-label-second').plain(),
+            title: mw.message('bs-insertTemplate-dialog-label-modify').plain(),
             border: true,
             flex: 1,
             layout: 'fit',
@@ -63,7 +63,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
         });
 
         this.previewPanel = Ext.create('Ext.Panel', {
-            title: mw.message('bs-insertTemplate-label-desc').plain(),
+            title: mw.message('bs-insertTemplate-dialog-label-preview').plain(),
             tools: [{
                 type: 'refresh'
             }],
@@ -80,7 +80,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
                 align: 'stretch'
             },
             items: [
-                Ext.create( 'Ext.form.Label', { text: mw.message('bs-insertTemplate-label-first').plain() }),
+                Ext.create( 'Ext.form.Label', { text: mw.message('bs-insertTemplate-dialog-label-choose').plain() }),
                 this.templateGrid
             ]
         });
@@ -151,7 +151,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
 
     onRowSelect: function( combo, records ) {
         var data = {
-            desc : records[0].get( 'desc' ),
+            desc : records[0].get( 'desc' )
         };
         this.currentData.name = records[0].get( 'name' );
 

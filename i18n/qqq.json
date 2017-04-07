@@ -8,7 +8,7 @@
 	"bs-insertTemplate-desc": "{{desc|name=BlueSpiceInsertTemplate|url=https://www.mediawiki.org/wiki/Extension:BlueSpiceInsertTemplate}}",
 	"bs-insertTemplate-button-template-title": "Label for the editor toolbox button",
 	"bs-insertTemplate-dialog-title": "Title text of the dialog window",
-	"bs-insertTemplate-label-first": "Label of the template selection combobox",
-	"bs-insertTemplate-label-second": "Label of the textarea that allows modification to the template syntax",
-	"bs-insertTemplate-label-desc": "Label of the preview area that shows the output of the template\n{{Identical|Preview}}"
+	"bs-insertTemplate-dialog-label-choose": "Label of the template selection combobox",
+	"bs-insertTemplate-dialog-label-modify": "Label of the textarea that allows modification to the template syntax",
+	"bs-insertTemplate-dialog-label-preview": "Label of the preview area that shows the output of the template\n{{Identical|Preview}}"
 }
