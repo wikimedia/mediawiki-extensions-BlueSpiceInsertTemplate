@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialog fir eng Schabloun dranzesetzen",
+	"bs-insertTemplate-button-template-title": "Schabloun drasetzen oder änneren",
+	"bs-insertTemplate-dialog-title": "Schabloun drasetzen",
+	"bs-insertTemplate-label-first": "Schabloun eraussichen",
+	"bs-insertTemplate-label-second": "Schabloun veränneren",
+	"bs-insertTemplate-label-desc": "Kucken ouni ofzespäicheren"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexey zakharenkov"
+		]
+	},
+	"bs-insertTemplate-desc": "Диалог вставки шаблона",
+	"bs-insertTemplate-button-template-title": "Вставить или редактировать шаблон",
+	"bs-insertTemplate-dialog-title": "Вставить шаблон",
+	"bs-insertTemplate-label-first": "Выбрать шаблон",
+	"bs-insertTemplate-label-second": "Изменить шаблон",
+	"bs-insertTemplate-label-desc": "Предпросмотр"
+}

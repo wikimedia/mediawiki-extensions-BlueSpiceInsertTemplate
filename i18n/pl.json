@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krottyianock"
+		]
+	},
+	"bs-insertTemplate-button-template-title": "Wstaw lub edytuj szablon",
+	"bs-insertTemplate-dialog-title": "Wstaw szablon",
+	"bs-insertTemplate-label-first": "Wybierz szablon",
+	"bs-insertTemplate-label-second": "Zmodyfikuj szablon",
+	"bs-insertTemplate-label-desc": "Podgląd"
+}
