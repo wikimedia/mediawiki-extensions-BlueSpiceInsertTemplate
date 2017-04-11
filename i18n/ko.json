@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-insertTemplate-desc": "틀 추가를 위한 대화 상자",
+	"bs-insertTemplate-button-template-title": "틀 추가 또는 편집",
+	"bs-insertTemplate-dialog-title": "틀 추가",
+	"bs-insertTemplate-label-first": "틀 선택",
+	"bs-insertTemplate-label-second": "틀 수정",
+	"bs-insertTemplate-label-desc": "미리 보기"
+}

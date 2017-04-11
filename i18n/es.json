@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"bs-insertTemplate-button-template-title": "Insertar o editar una plantilla",
+	"bs-insertTemplate-dialog-title": "Insertar plantilla",
+	"bs-insertTemplate-label-first": "Elegir plantilla",
+	"bs-insertTemplate-label-second": "Modificar plantilla",
+	"bs-insertTemplate-label-desc": "Vista previa"
+}
