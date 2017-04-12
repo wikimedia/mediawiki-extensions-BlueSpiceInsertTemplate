@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"bs-insertTemplate-dialog-title": "Ievietot veidni",
+	"bs-insertTemplate-label-first": "Izvēlēties veidni",
+	"bs-insertTemplate-label-second": "Mainīt veidni",
+	"bs-insertTemplate-label-desc": "Priekšskatījums"
+}
