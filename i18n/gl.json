@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
+	"bs-insertTemplate-button-template-title": "Inserir ou editar un modelo",
+	"bs-insertTemplate-dialog-title": "Inserir un modelo",
+	"bs-insertTemplate-label-first": "Escoller un modelo",
+	"bs-insertTemplate-label-second": "Modificar un modelo",
 	"bs-insertTemplate-label-desc": "Vista previa"
 }
