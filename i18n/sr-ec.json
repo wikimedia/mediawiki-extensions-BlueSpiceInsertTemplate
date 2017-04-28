@@ -7,7 +7,7 @@
 	"bs-insertTemplate-desc": "Дијалог за убацивање шаблона",
 	"bs-insertTemplate-button-template-title": "Убаци или уреди шаблон",
 	"bs-insertTemplate-dialog-title": "Убацивање шаблона",
-	"bs-insertTemplate-label-first": "Избор шаблона",
-	"bs-insertTemplate-label-second": "Измењивање шаблона",
-	"bs-insertTemplate-label-desc": "Претпреглед"
+	"bs-insertTemplate-dialog-label-choose": "Избор шаблона",
+	"bs-insertTemplate-dialog-label-modify": "Измењивање шаблона",
+	"bs-insertTemplate-dialog-label-preview": "Претпреглед"
 }
