@@ -1,13 +1,13 @@
 {
-  "@metadata": {
-    "authors": [
-      "Josef Konrad <konrad@hallowelt.com>"
-    ]
-  },
-  "bs-insertTemplate-desc": "Dialog to insert a template",
-  "bs-insertTemplate-button-template-title": "Insert or edit template",
-  "bs-insertTemplate-dialog-title": "Insert template",
-  "bs-insertTemplate-dialog-label-choose": "Choose template",
-  "bs-insertTemplate-dialog-label-modify" : "Modify template",
-  "bs-insertTemplate-dialog-label-preview" : "Preview"
+	"@metadata": {
+		"authors": [
+			"Josef Konrad <konrad@hallowelt.com>"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialog to insert a template",
+	"bs-insertTemplate-button-template-title": "Insert or edit template",
+	"bs-insertTemplate-dialog-title": "Insert template",
+	"bs-insertTemplate-dialog-label-choose": "Choose template",
+	"bs-insertTemplate-dialog-label-modify": "Modify template",
+	"bs-insertTemplate-dialog-label-preview": "Preview"
 }
