@@ -10,7 +10,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
     title: mw.message('bs-insertTemplate-dialog-title').plain(),
     afterInitComponent: function() {
         this.templateStore = Ext.create( 'BS.store.BSApi', {
-            apiAction: 'bs-insertTemplate-data-store',
+            apiAction: 'bs-inserttemplate-store',
             fields: ['id', 'name', 'desc', 'code' ],
             submitValue: false,
             remoteSort: false,

@@ -11,5 +11,6 @@
 	"bs-insertTemplate-dialog-title": "Title text of the dialog window\n{{Identical|Insert template}}",
 	"bs-insertTemplate-dialog-label-choose": "Label of the template selection combobox",
 	"bs-insertTemplate-dialog-label-modify": "Label of the textarea that allows modification to the template syntax",
-	"bs-insertTemplate-dialog-label-preview": "Label of the preview area that shows the output of the template\n{{Identical|Preview}}"
+	"bs-insertTemplate-dialog-label-preview": "Label of the preview area that shows the output of the template\n{{Identical|Preview}}",
+	"apihelp-bs-inserttemplate-store-description": "Describes the API endpoint that lists templates\n{{doc-apihelp-description|bs-inserttemplate-store}}"
 }

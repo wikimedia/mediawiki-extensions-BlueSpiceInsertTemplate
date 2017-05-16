@@ -1,7 +1,7 @@
 {
 	"name": "BlueSpiceInsertTemplate",
 	"version": "2.27.1",
-	"url": "",
+	"url": "https://www.mediawiki.org/wiki/Extension:BlueSpiceInsertTemplate",
 	"author": [
 		"Josef Konrad",
 		"Robert Vogel"
@@ -25,7 +25,7 @@
 		"Favorites": []
 	},
 	"APIModules": {
-		"bs-insertTemplate-data-store": "BSApiInsertTemplateTemplateStore"
+		"bs-inserttemplate-store": "BSApiInsertTemplateTemplateStore"
 	},
 	"AutoloadClasses": {
 		"InsertTemplate": "BlueSpiceInsertTemplate.class.php",
