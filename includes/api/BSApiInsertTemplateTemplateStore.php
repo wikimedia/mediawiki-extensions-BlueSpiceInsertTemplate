@@ -118,13 +118,24 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 			$aMatches = [];
 			if ( preg_match_all( '/\{\{\{(.*?)\}\}\}/', $sWikiText, $aMatches ) !== false ) {
 
-
 				$sParameterList = '';
-
+				$aNamedParamters = [];
 				foreach ( $aMatches[1] as $sMatch ) {
 					$aMatch = explode( '|', $sMatch );
 
-					if ( count( $aMatch ) > 0 ) {
+					//do not list indexed parameters as named parameters, but
+					//as empty places
+					if( is_numeric( $aMatch[0] ) ) {
+						$sParameterList .= "|\n";
+						continue;
+					}
+					//do not list same parameter twice
+					if( in_array( $aMatch[0], $aNamedParamters ) ) {
+						continue;
+					}
+
+					$aNamedParamters[] = $aMatch[0];
+					if ( count( $aMatch ) > 1 ) {
 						$sParameterList .= '|' . $aMatch[ 0 ] . '=' . $aMatch[ 1 ] . "\n";
 					} else {
 						$sParameterList .= '|' . $sMatch . "=\n";
