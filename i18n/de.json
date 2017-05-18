@@ -8,7 +8,8 @@
 	"bs-insertTemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
 	"bs-insertTemplate-button-template-title": "Vorlage einfügen oder bearbeiten",
 	"bs-insertTemplate-dialog-title": "Vorlage einfügen",
-	"bs-insertTemplate-label-first": "Vorlage auswählen",
-	"bs-insertTemplate-label-second": "Vorlage bearbeiten",
-	"bs-insertTemplate-label-desc": "Vorschau"
+	"bs-insertTemplate-dialog-label-choose": "Vorlage auswählen",
+	"bs-insertTemplate-dialog-label-modify": "Vorlage bearbeiten",
+	"bs-insertTemplate-dialog-label-preview": "Vorschau",
+	"apihelp-bs-inserttemplate-store-description": "Listet alle Vorlagen auf. Erlaubt die Sortierung, Filterung und Seitennummerierung. Implementiert die Parameter „ExtJS Store“."
 }

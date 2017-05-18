@@ -9,5 +9,6 @@
 	"bs-insertTemplate-dialog-title": "插入模板",
 	"bs-insertTemplate-dialog-label-choose": "选择模板",
 	"bs-insertTemplate-dialog-label-modify": "修改模板",
-	"bs-insertTemplate-dialog-label-preview": "预览"
+	"bs-insertTemplate-dialog-label-preview": "预览",
+	"apihelp-bs-inserttemplate-store-description": "列举所有模板。允许排序、过滤和分页。执行ExtJS存储的参数。"
 }
