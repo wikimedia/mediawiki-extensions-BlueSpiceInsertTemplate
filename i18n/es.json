@@ -5,10 +5,11 @@
 			"Fitoschido"
 		]
 	},
+	"bs-insertTemplate-desc": "Cuadro de diálogo para insertar plantillas",
 	"bs-insertTemplate-button-template-title": "Insertar o editar una plantilla",
 	"bs-insertTemplate-dialog-title": "Insertar plantilla",
 	"bs-insertTemplate-dialog-label-choose": "Elegir plantilla",
 	"bs-insertTemplate-dialog-label-modify": "Modificar plantilla",
-	"bs-insertTemplate-dialog-label-preview": "Vista previa",
+	"bs-insertTemplate-dialog-label-preview": "Previsualización",
 	"apihelp-bs-inserttemplate-store-description": "Enumera todas las plantillas. Permite ordenarlas, filtrarlas y paginarlas. Aplica parámetros de ExtJS Store."
 }
