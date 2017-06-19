@@ -4,5 +4,6 @@
 			"Beta16"
 		]
 	},
-	"bs-insertTemplate-label-desc": "Anteprima"
+	"bs-insertTemplate-dialog-label-preview": "Anteprima",
+	"apihelp-bs-inserttemplate-store-summary": "Elenca tutti i templates. Consente ordinamento, filtraggio e impaginazione. Implementa parametri ExtJS Store."
 }
