@@ -11,5 +11,6 @@
 	"bs-insertTemplate-dialog-label-choose": "Choisir un modèle",
 	"bs-insertTemplate-dialog-label-modify": "Modifier un modèle",
 	"bs-insertTemplate-dialog-label-preview": "Aperçu",
-	"apihelp-bs-inserttemplate-store-description": "Liste tous les modèles. Permet le tri, le filtrage et la mise en forme. Gère les paramètres ExtJS Store."
+	"apihelp-bs-inserttemplate-store-description": "Liste tous les modèles. Permet le tri, le filtrage et la mise en forme. Gère les paramètres ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Liste tous les modèles. Permet le tri, le filtrage et la mise en forme. Gère les paramètres ExtJS Store."
 }
