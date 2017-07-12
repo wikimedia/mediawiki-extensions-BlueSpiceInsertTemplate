@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Josef Konrad <konrad@hallowelt.com>",
-			"Metalhead64"
+			"Metalhead64",
+			"Mglaser"
 		]
 	},
 	"bs-insertTemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
-	"bs-insertTemplate-button-template-title": "Vorlage einfügen oder bearbeiten",
+	"bs-insertTemplate-button-template-title": "Vorlage einfügen / bearbeiten",
 	"bs-insertTemplate-dialog-title": "Vorlage einfügen",
 	"bs-insertTemplate-dialog-label-choose": "Vorlage auswählen",
 	"bs-insertTemplate-dialog-label-modify": "Vorlage bearbeiten",
