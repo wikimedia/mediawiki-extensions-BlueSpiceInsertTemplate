@@ -89,7 +89,7 @@ var BsInsertTemplateVisualEditorConnector = {
         me.data.id = node.getAttribute('data-bs-id');
         me.data.type = node.getAttribute('data-bs-type');
         me.data.name = node.getAttribute('data-bs-name');
-
+	me.data.node = node;
         var templates = me.caller.plugins.bswikicode.getTemplateList();
         var currentCode = templates[me.data.id];
 
@@ -101,7 +101,6 @@ var BsInsertTemplateVisualEditorConnector = {
         var me = BsInsertTemplateVisualEditorConnector;
         me.bookmark = me.caller.selection.getBookmark();
         me.caller.selection.moveToBookmark( me.bookmark );
-        var selectedNode = me.caller.selection.getNode();
         var code = data.code;
 
         var specialtags = me.caller.plugins.bswikicode.getTemplateList();
@@ -117,15 +116,16 @@ var BsInsertTemplateVisualEditorConnector = {
 			'class':'template',
 			'data-bs-name': me.data.name,
 			'data-bs-type': 'template',
-			'data-bs-id': me.data.id
+			'data-bs-id': me.data.id,
+			'contenteditable': false
 		};
 		var spanContent = '{{ '+me.data.name+' }}';
 		spanAttrs['class'] += ' mceNonEditable';
 
         var newSpanNode = null;
-        if ( selectedNode.nodeName.toLowerCase() == 'span') {
+        if ( me.data.node.nodeName.toLowerCase() == 'span') {
             newSpanNode = me.caller.dom.create( 'span', spanAttrs, spanContent );
-            me.caller.dom.replace(newSpanNode, selectedNode);
+            me.caller.dom.replace(newSpanNode, me.data.node);
             //Place cursor to end
             me.caller.selection.select(newSpanNode, false);
         } else {
@@ -133,6 +133,7 @@ var BsInsertTemplateVisualEditorConnector = {
             me.caller.insertContent(newSpanNode);
         }
 
+        me.data.node = null;
         me.caller.selection.collapse(false);
     }
 };
