@@ -57,5 +57,8 @@
 			]
 		}
 	},
+	"Hooks": {
+		"UnitTestsList" : "InsertTemplate::onUnitTestsList"
+	},
 	"manifest_version": 1
 }
