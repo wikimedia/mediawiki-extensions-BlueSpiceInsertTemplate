@@ -7,7 +7,7 @@
 	"bs-insertTemplate-desc": "Dialogruta för att infoga en mall",
 	"bs-insertTemplate-button-template-title": "Infoga eller redigera mall",
 	"bs-insertTemplate-dialog-title": "Infoga mall",
-	"bs-insertTemplate-label-first": "Välj mall",
-	"bs-insertTemplate-label-second": "Modifiera mall",
-	"bs-insertTemplate-label-desc": "Förhandsgranska"
+	"bs-insertTemplate-dialog-label-choose": "Välj mall",
+	"bs-insertTemplate-dialog-label-modify": "Modifiera mall",
+	"bs-insertTemplate-dialog-label-preview": "Förhandsgranska"
 }

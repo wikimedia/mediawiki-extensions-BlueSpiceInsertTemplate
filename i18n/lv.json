@@ -5,7 +5,7 @@
 		]
 	},
 	"bs-insertTemplate-dialog-title": "Ievietot veidni",
-	"bs-insertTemplate-label-first": "Izvēlēties veidni",
-	"bs-insertTemplate-label-second": "Mainīt veidni",
-	"bs-insertTemplate-label-desc": "Priekšskatījums"
+	"bs-insertTemplate-dialog-label-choose": "Izvēlēties veidni",
+	"bs-insertTemplate-dialog-label-modify": "Mainīt veidni",
+	"bs-insertTemplate-dialog-label-preview": "Priekšskatījums"
 }
