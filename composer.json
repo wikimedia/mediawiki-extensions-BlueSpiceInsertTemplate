@@ -1,6 +1,7 @@
 {
 	"name": "mediawiki/blue-spice-insert-template",
 	"type": "mediawiki-extension",
+	"license-name": "GPL-3.0",
 	"description": "Dialog to insert a template",
 	"require": {
 		"composer/installers": "~1.0"

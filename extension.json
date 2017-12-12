@@ -1,6 +1,7 @@
 {
 	"name": "BlueSpiceInsertTemplate",
-	"version": "2.27.1",
+	"version": "3.0.0-alpha",
+	"license-name": "GPL-3.0",
 	"url": "https://www.mediawiki.org/wiki/Extension:BlueSpiceInsertTemplate",
 	"author": [
 		"Josef Konrad",
@@ -8,7 +9,6 @@
 	],
 	"descriptionmsg": "bs-insertTemplate-desc",
 	"type": "bluespice",
-	"license-name": "GPL-2.0+",
 	"bsgExtensions": {
 		"BlueSpiceInsertTemplate": {
 			"className": "InsertTemplate",
