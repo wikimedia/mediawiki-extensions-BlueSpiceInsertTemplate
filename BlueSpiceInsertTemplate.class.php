@@ -35,12 +35,8 @@ class InsertTemplate extends BsExtensionMW {
 	 * Initialize the InsertTemplate extension
 	 */
 	protected function initExt() {
-		wfProfileIn( 'BS::' . __METHOD__ );
-
 		$this->setHook( 'VisualEditorConfig' );
 		$this->setHook( 'BSExtendedEditBarBeforeEditToolbar' );
-
-		wfProfileOut( 'BS::' . __METHOD__ );
 	}
 
 	/**
