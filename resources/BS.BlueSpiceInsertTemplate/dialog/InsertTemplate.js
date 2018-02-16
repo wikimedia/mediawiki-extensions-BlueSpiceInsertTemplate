@@ -1,5 +1,5 @@
 Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
-	extend: "BS.Window",
+	extend: "MWExt.Dialog",
 	bodyStyle: {
 		backgroundColor: "#fff"
 	},
@@ -150,13 +150,13 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
 		this.callParent( arguments );
 	},
 
-	onRowSelect: function( combo, records ) {
+	onRowSelect: function( combo, record ) {
 		var data = {
-			desc : records[0].get( 'desc' )
+			desc : record.get( 'desc' )
 		};
-		this.currentData.name = records[0].get( 'name' );
+		this.currentData.name = record.get( 'name' );
 
-		this.setCommonFields( records[0].get( 'code' ), data );
+		this.setCommonFields( record.get( 'code' ), data );
 	},
 
 	setCommonFields: function( text, data ) {
