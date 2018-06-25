@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-insert-template",
+	"name": "bluespice/inserttemplate",
 	"type": "mediawiki-extension",
 	"license-name": "GPL-3.0-only",
 	"description": "Dialog to insert a template",
@@ -19,5 +19,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceInsertTemplate"
 	}
 }
