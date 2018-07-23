@@ -8,5 +8,6 @@
 	"bs-insertTemplate-button-template-title": "Уставіць ці рэдагаваць шаблён",
 	"bs-insertTemplate-dialog-title": "Уставіць шаблён",
 	"bs-insertTemplate-dialog-label-choose": "Абраць шаблён",
-	"bs-insertTemplate-dialog-label-modify": "Зьмяніць шаблён"
+	"bs-insertTemplate-dialog-label-modify": "Зьмяніць шаблён",
+	"bs-insertTemplate-dialog-label-preview": "Папярэдні прагляд"
 }
