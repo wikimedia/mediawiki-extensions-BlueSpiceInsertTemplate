@@ -9,5 +9,6 @@
 	"bs-insertTemplate-dialog-title": "Уставіць шаблён",
 	"bs-insertTemplate-dialog-label-choose": "Абраць шаблён",
 	"bs-insertTemplate-dialog-label-modify": "Зьмяніць шаблён",
-	"bs-insertTemplate-dialog-label-preview": "Папярэдні прагляд"
+	"bs-insertTemplate-dialog-label-preview": "Папярэдні прагляд",
+	"apihelp-bs-inserttemplate-store-description": "Пералічвае ўсе шаблёны. Дазваляе сартаваньне, фільтраваньне і падзел на старонкі. Рэалізуе парамэтры ExtJS Store."
 }
