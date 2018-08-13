@@ -4,5 +4,8 @@
 			"Joetaras"
 		]
 	},
+	"bs-insertTemplate-dialog-title": "'Nzerisce 'nu template",
+	"bs-insertTemplate-dialog-label-choose": "Scacchie 'u template",
+	"bs-insertTemplate-dialog-label-modify": "Cange 'u template",
 	"bs-insertTemplate-dialog-label-preview": "Andeprime"
 }
