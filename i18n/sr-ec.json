@@ -5,9 +5,9 @@
 			"BadDog"
 		]
 	},
-	"bs-insertTemplate-desc": "Дијалог за уметање шаблона",
+	"bs-insertTemplate-desc": "Дијалог за убацивање шаблона",
 	"bs-insertTemplate-button-template-title": "Уметни или уреди шаблон",
-	"bs-insertTemplate-dialog-title": "Уметање шаблона",
+	"bs-insertTemplate-dialog-title": "Убацивање шаблона",
 	"bs-insertTemplate-dialog-label-choose": "Избор шаблона",
 	"bs-insertTemplate-dialog-label-modify": "Измењивање шаблона",
 	"bs-insertTemplate-dialog-label-preview": "Претпреглед",
