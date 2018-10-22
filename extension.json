@@ -9,10 +9,20 @@
 	],
 	"descriptionmsg": "bs-insertTemplate-desc",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceInsertTemplate": {
-			"className": "InsertTemplate",
-			"extPath": "/BlueSpiceInsertTemplate"
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 3.0.0"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceInsertTemplate": {
+					"className": "\\BlueSpice\\InsertTemplate\\Extension",
+					"extPath": "/BlueSpiceInsertTemplate"
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -20,15 +30,19 @@
 			"i18n"
 		]
 	},
+	"config_prefix": "bsg",
 	"config": {
-		"_prefix": "bsgInsertTemplate",
-		"Favorites": []
+		"InsertTemplateFavorites": {
+			"value": []
+		}
 	},
 	"APIModules": {
 		"bs-inserttemplate-store": "BSApiInsertTemplateTemplateStore"
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\InsertTemplate\\" : "src/"
+	},
 	"AutoloadClasses": {
-		"InsertTemplate": "BlueSpiceInsertTemplate.class.php",
 		"BSApiInsertTemplateTemplateStore": "includes/api/BSApiInsertTemplateTemplateStore.php"
 	},
 	"ResourceFileModulePaths": {
@@ -57,5 +71,5 @@
 			]
 		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
