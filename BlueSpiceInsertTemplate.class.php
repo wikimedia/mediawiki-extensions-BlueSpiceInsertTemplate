@@ -35,25 +35,7 @@ class InsertTemplate extends BsExtensionMW {
 	 * Initialize the InsertTemplate extension
 	 */
 	protected function initExt() {
-		$this->setHook( 'VisualEditorConfig' );
-	}
 
-	/**
-	 * Hook Handler for VisualEditorConfig Hook
-	 * @param array $aConfigStandard reference
-	 * @param array $aConfigOverwrite reference
-	 * @param array &$aLoaderUsingDeps reference
-	 * @return boolean always true to keep hook alive
-	 */
-	public function onVisualEditorConfig( &$aConfigStandard, &$aConfigOverwrite, &$aLoaderUsingDeps ) {
-		$aLoaderUsingDeps[] = 'ext.bluespice.insertTemplate';
-
-		$iIndexStandard = array_search( 'unlink',$aConfigStandard["toolbar1"] );
-		array_splice( $aConfigStandard["toolbar1"], $iIndexStandard + 1, 0, "bstemplate" );
-
-		// Add context menu entry
-		$aConfigStandard["contextmenu"] = str_replace('bsContextMenuMarker', 'bsContextMenuMarker bsContextTemplate', $aConfigStandard["contextmenu"] );
-		return true;
 	}
 
 }
