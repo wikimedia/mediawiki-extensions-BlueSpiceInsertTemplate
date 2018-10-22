@@ -36,7 +36,6 @@ class InsertTemplate extends BsExtensionMW {
 	 */
 	protected function initExt() {
 		$this->setHook( 'VisualEditorConfig' );
-		$this->setHook( 'BSExtendedEditBarBeforeEditToolbar' );
 	}
 
 	/**
@@ -57,22 +56,4 @@ class InsertTemplate extends BsExtensionMW {
 		return true;
 	}
 
-	/**
-	 * Hook Handler to add the insert template button to the editor.
-	 * @param array $aRows
-	 * @param array $aButtonCfgs
-	 * @return boolean always true to keep hook alive
-	 */
-	public function onBSExtendedEditBarBeforeEditToolbar( &$aRows, &$aButtonCfgs ) {
-		$this->getOutput()->addModuleStyles( 'ext.bluespice.insertTemplate.styles' );
-		$this->getOutput()->addModules( 'ext.bluespice.insertTemplate' );
-
-		$aRows[0]['dialogs'][100] = 'bs-editButton-insertTemplate';
-
-		$aButtonCfgs['bs-editButton-insertTemplate'] = array(
-			'tip' => wfMessage( 'bs-insertTemplate-button-template-title' )->plain()
-		);
-
-		return true;
-	}
 }
