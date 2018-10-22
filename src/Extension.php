@@ -27,15 +27,9 @@
  * @filesource
  */
 
+namespace BlueSpice\InsertTemplate;
+
 /**
  * Class for insert templates.
  */
-class InsertTemplate extends BsExtensionMW {
-	/**
-	 * Initialize the InsertTemplate extension
-	 */
-	protected function initExt() {
-
-	}
-
-}
+class Extension extends \BlueSpice\Extension {}
