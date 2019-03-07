@@ -34,7 +34,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 	 * @return array Returns favorite templates or the result from the query.
 	 */
 	protected function makeData( $sQuery = '' ) {
-		$aFavorites = $this->getConfig()->get( 'Favorites' );
+		$aFavorites = $this->getConfig()->get( 'InsertTemplateFavorites' );
 
 		if( empty ( $sQuery ) && count( $aFavorites ) > 0 ) {
 			$this->loadFavs( $aFavorites );
@@ -90,13 +90,6 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 				$this->aData[] = $oTemplate;
 			}
 		}
-	}
-
-	/**
-	 * @return GlobalVarConfig
-	 */
-	public function getConfig() {
-		return new GlobalVarConfig( 'bsgInsertTemplate' );
 	}
 
 	/**
