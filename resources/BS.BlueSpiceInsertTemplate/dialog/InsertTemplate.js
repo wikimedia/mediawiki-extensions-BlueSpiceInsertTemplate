@@ -24,7 +24,7 @@ Ext.define("BS.BlueSpiceInsertTemplate.dialog.InsertTemplate", {
 				},
 				reader: {
 					type: 'json',
-					root: 'results',
+					rootProperty: 'results',
 					idProperty: 'name'
 				}
 			},
