@@ -105,7 +105,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 		$sWikiText = '{{' . $oTemplateTitle->getDBkey() . '}}';
 
 		if ( $oContent instanceof WikitextContent ) {
-			$sWikiText = $oContent->getNativeData();
+			$sWikiText = $oContent->getText();
 
 			$aMatches = [];
 			if ( preg_match_all( '/\{\{\{(.*?)\}\}\}/', $sWikiText, $aMatches ) !== false ) {
