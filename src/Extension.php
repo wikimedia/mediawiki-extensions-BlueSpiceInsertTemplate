@@ -23,7 +23,7 @@
  *
  * @author     Josef Konrad <konrad@hallowelt.com>
  * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
 
@@ -32,4 +32,5 @@ namespace BlueSpice\InsertTemplate;
 /**
  * Class for insert templates.
  */
-class Extension extends \BlueSpice\Extension {}
+class Extension extends \BlueSpice\Extension {
+}

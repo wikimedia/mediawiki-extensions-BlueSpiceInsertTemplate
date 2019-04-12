@@ -21,7 +21,7 @@
  *
  * @author     Josef Konrad <konrad@hallowelt.com>
  * @copyright  Copyright (C) 2017 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  */
 class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 
@@ -36,10 +36,9 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 	protected function makeData( $sQuery = '' ) {
 		$aFavorites = $this->getConfig()->get( 'InsertTemplateFavorites' );
 
-		if( empty ( $sQuery ) && count( $aFavorites ) > 0 ) {
+		if ( empty( $sQuery ) && count( $aFavorites ) > 0 ) {
 			$this->loadFavs( $aFavorites );
-		}
-		else {
+		} else {
 			$this->loadAllTemplatesFromDB( $sQuery );
 		}
 
@@ -50,7 +49,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 	 * Returns the selected favorites.
 	 */
 	private function loadFavs( $aFavs ) {
-		foreach( $aFavs as $sTitle ) {
+		foreach ( $aFavs as $sTitle ) {
 			$oTemplateTitle = Title::makeTitle( NS_TEMPLATE, $sTitle );
 			$oTemplate = new stdClass();
 
@@ -69,16 +68,15 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 	 */
 	private function loadAllTemplatesFromDB( $sQuery = '' ) {
 		$res = $this->getDB()->select(
-			['p' => 'page'],
+			[ 'p' => 'page' ],
 			'*',
 			[
 				'page_namespace' => NS_TEMPLATE,
 			]
 		);
 
-		foreach( $res as $row ) {
-
-			if( stripos( $row->page_title, str_replace( ' ', '_', $sQuery ) ) !== false || $sQuery == '' ) {
+		foreach ( $res as $row ) {
+			if ( stripos( $row->page_title, str_replace( ' ', '_', $sQuery ) ) !== false || $sQuery == '' ) {
 				$oTemplateTitle = Title::makeTitle( NS_TEMPLATE, $row->page_title );
 
 				$oTemplate = new stdClass();
@@ -115,14 +113,14 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 				foreach ( $aMatches[1] as $sMatch ) {
 					$aMatch = explode( '|', $sMatch );
 
-					//do not list indexed parameters as named parameters, but
-					//as empty places
-					if( is_numeric( $aMatch[0] ) ) {
+					// do not list indexed parameters as named parameters, but
+					// as empty places
+					if ( is_numeric( $aMatch[0] ) ) {
 						$sParameterList .= "|\n";
 						continue;
 					}
-					//do not list same parameter twice
-					if( in_array( $aMatch[0], $aNamedParamters ) ) {
+					// do not list same parameter twice
+					if ( in_array( $aMatch[0], $aNamedParamters ) ) {
 						continue;
 					}
 
@@ -134,7 +132,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 					}
 				}
 				$sWikiText = '{{' . $oTemplateTitle->getDBkey();
-				if( !empty( $sParameterList ) ) {
+				if ( !empty( $sParameterList ) ) {
 					$sWikiText .= "\n" . $sParameterList;
 				}
 				$sWikiText .= '}}';
