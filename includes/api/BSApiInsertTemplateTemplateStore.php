@@ -109,7 +109,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 			if ( preg_match_all( '/\{\{\{(.*?)\}\}\}/', $sWikiText, $aMatches ) !== false ) {
 
 				$sParameterList = '';
-				$aNamedParamters = [];
+				$aNamedParameters = [];
 				foreach ( $aMatches[1] as $sMatch ) {
 					$aMatch = explode( '|', $sMatch );
 
@@ -120,11 +120,11 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 						continue;
 					}
 					// do not list same parameter twice
-					if ( in_array( $aMatch[0], $aNamedParamters ) ) {
+					if ( in_array( $aMatch[0], $aNamedParameters ) ) {
 						continue;
 					}
 
-					$aNamedParamters[] = $aMatch[0];
+					$aNamedParameters[] = $aMatch[0];
 					if ( count( $aMatch ) > 1 ) {
 						$sParameterList .= '|' . $aMatch[ 0 ] . '=' . $aMatch[ 1 ] . "\n";
 					} else {
