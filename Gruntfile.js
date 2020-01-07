@@ -5,7 +5,14 @@ module.exports = function ( grunt ) {
 
 	var conf = grunt.file.readJSON( 'extension.json' );
 	grunt.initConfig( {
-		banana: conf.MessagesDirs,
+		banana: Object.assign(
+			conf.MessagesDirs,
+			{
+				options: {
+					requireLowerCase: 'initial'
+				}
+			}
+		),
 		jsonlint: {
 			all: [
 				'**/*.json',
