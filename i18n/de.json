@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hwboehm",
 			"Josef Konrad <konrad@hallowelt.com>",
 			"Metalhead64",
-			"Mglaser",
-			"Hwboehm"
+			"Mglaser"
 		]
 	},
 	"bs-insertTemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
