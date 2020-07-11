@@ -47,6 +47,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 
 	/**
 	 * Returns the selected favorites.
+	 * @param string[] $aFavs
 	 */
 	private function loadFavs( $aFavs ) {
 		foreach ( $aFavs as $sTitle ) {
@@ -93,7 +94,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 	/**
 	 * Returns the template code with variables.
 	 *
-	 * @param $oTemplateTitle
+	 * @param Title $oTemplateTitle
 	 * @return string
 	 */
 	private function parseTemplate( $oTemplateTitle ) {
