@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-insertTemplate-desc": "Dijalog za ubacivanje šablona",
 	"bs-insertTemplate-button-template-title": "Umetni ili uredi šablon",
 	"bs-insertTemplate-dialog-title": "Ubacivanje šablona",
