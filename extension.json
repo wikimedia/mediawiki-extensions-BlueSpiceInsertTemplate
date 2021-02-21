@@ -40,7 +40,7 @@
 		"bs-inserttemplate-store": "BSApiInsertTemplateTemplateStore"
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\InsertTemplate\\" : "src/"
+		"BlueSpice\\InsertTemplate\\": "src/"
 	},
 	"AutoloadClasses": {
 		"BSApiInsertTemplateTemplateStore": "includes/api/BSApiInsertTemplateTemplateStore.php"
