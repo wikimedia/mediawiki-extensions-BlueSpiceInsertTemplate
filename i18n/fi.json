@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joquliina"
+		]
+	},
+	"bs-insertTemplate-dialog-label-choose": "Valitse malline",
+	"bs-insertTemplate-dialog-label-modify": "Muokkaa mallinetta",
+	"bs-insertTemplate-dialog-label-preview": "Esikatsele"
+}
