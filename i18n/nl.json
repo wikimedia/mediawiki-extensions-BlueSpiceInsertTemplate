@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"McDutchie"
 		]
 	},
+	"bs-insertTemplate-desc": "Dialoog om een sjabloon in te voegen",
+	"bs-insertTemplate-button-template-title": "Sjabloon invoegen of bewerken",
 	"bs-insertTemplate-dialog-title": "Sjabloon invoegen",
 	"bs-insertTemplate-dialog-label-choose": "Sjabloon kiezen",
 	"bs-insertTemplate-dialog-label-modify": "Sjabloon aanpassen",
-	"bs-insertTemplate-dialog-label-preview": "Voorvertoning"
+	"bs-insertTemplate-dialog-label-preview": "Voorvertoning",
+	"apihelp-bs-inserttemplate-store-description": "Geeft een overzicht van alle sjablonen. Maakt sorteren, filteren en pagineren mogelijk. Implementeert ExtJS Store-parameters.",
+	"apihelp-bs-inserttemplate-store-summary": "Geeft een overzicht van alle sjablonen. Maakt sorteren, filteren en pagineren mogelijk. Implementeert ExtJS Store-parameters."
 }
