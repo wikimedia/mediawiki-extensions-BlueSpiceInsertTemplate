@@ -25,6 +25,7 @@
  */
 class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 
+	/** @var array */
 	protected $aData = [];
 
 	/**
