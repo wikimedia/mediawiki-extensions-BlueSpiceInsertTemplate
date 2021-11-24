@@ -4,5 +4,9 @@
 			"Ajeje Brazorf"
 		]
 	},
+	"bs-insertTemplate-button-template-title": "Nzirisci o cancia nu template",
+	"bs-insertTemplate-dialog-title": "Nzirisci template",
+	"bs-insertTemplate-dialog-label-choose": "Scegghi template",
+	"bs-insertTemplate-dialog-label-modify": "Cancia template",
 	"bs-insertTemplate-dialog-label-preview": "Antiprima"
 }
