@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Dansita"
+			"Dansita",
+			"GpieroMW"
 		]
 	},
+	"bs-insertTemplate-button-template-title": "Inserire o modificare un modello",
 	"bs-insertTemplate-dialog-title": "Inserisci template",
 	"bs-insertTemplate-dialog-label-choose": "Scegli template",
 	"bs-insertTemplate-dialog-label-modify": "Modifica template",
