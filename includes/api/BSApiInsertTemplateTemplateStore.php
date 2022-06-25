@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * This class serves as a backend for the data store of the InsertTemplate
  * extension
@@ -99,7 +102,7 @@ class BSApiInsertTemplateTemplateStore extends BSApiExtJSStoreBase {
 	 * @return string
 	 */
 	private function parseTemplate( $oTemplateTitle ) {
-		$oWikiPage = WikiPage::factory( $oTemplateTitle );
+		$oWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $oTemplateTitle );
 		$oContent = $oWikiPage->getContent();
 
 		$sWikiText = '{{' . $oTemplateTitle->getDBkey() . '}}';
