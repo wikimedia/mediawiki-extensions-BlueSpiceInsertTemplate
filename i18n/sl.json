@@ -4,5 +4,6 @@
 			"Eleassar"
 		]
 	},
-	"bs-insertTemplate-dialog-label-preview": "Predogled"
+	"bs-insertTemplate-dialog-label-preview": "Predogled",
+	"apihelp-bs-inserttemplate-store-summary": "Navede vse predloge. Omogoča razvrščanje, filtriranje in paginacijo. Uvede parametre ExtJS Store."
 }
