@@ -8,5 +8,6 @@
 	"bs-insertTemplate-dialog-label-choose": "Izbor šablona",
 	"bs-insertTemplate-dialog-label-modify": "Izmenjivanje šablona",
 	"bs-insertTemplate-dialog-label-preview": "Pretpregled",
-	"apihelp-bs-inserttemplate-store-description": "Spisak svih šablona. Omogućava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre."
+	"apihelp-bs-inserttemplate-store-description": "Spisak svih šablona. Omogućava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre.",
+	"apihelp-bs-inserttemplate-store-summary": "Spisak svih šablona. Omogućava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre."
 }
