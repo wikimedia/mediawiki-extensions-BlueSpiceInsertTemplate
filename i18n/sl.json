@@ -4,6 +4,12 @@
 			"Eleassar"
 		]
 	},
+	"bs-insertTemplate-desc": "Dialog za vstavitev predloge",
+	"bs-insertTemplate-button-template-title": "Vstavi/uredi predlogo",
+	"bs-insertTemplate-dialog-title": "Vstavi predlogo",
+	"bs-insertTemplate-dialog-label-choose": "Izberite predlogo",
+	"bs-insertTemplate-dialog-label-modify": "Spremeni predlogo",
 	"bs-insertTemplate-dialog-label-preview": "Predogled",
+	"apihelp-bs-inserttemplate-store-description": "Navede vse predloge. Omogoča razvrščanje, filtriranje in paginacijo. Uvede parametre ExtJS Store.",
 	"apihelp-bs-inserttemplate-store-summary": "Navede vse predloge. Omogoča razvrščanje, filtriranje in paginacijo. Uvede parametre ExtJS Store."
 }
