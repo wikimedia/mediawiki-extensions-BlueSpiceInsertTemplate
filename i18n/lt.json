@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialogo langas šablonui įterpti",
+	"bs-insertTemplate-button-template-title": "Įterpti arba redaguoti šabloną",
+	"bs-insertTemplate-dialog-title": "Įterpti šabloną",
+	"bs-insertTemplate-dialog-label-choose": "Pasirinkti šabloną",
+	"bs-insertTemplate-dialog-label-modify": "Keisti šabloną",
+	"bs-insertTemplate-dialog-label-preview": "Peržiūra"
+}
