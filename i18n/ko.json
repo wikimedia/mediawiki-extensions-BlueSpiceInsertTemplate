@@ -10,6 +10,5 @@
 	"bs-insertTemplate-dialog-label-choose": "틀 선택",
 	"bs-insertTemplate-dialog-label-modify": "틀 수정",
 	"bs-insertTemplate-dialog-label-preview": "미리 보기",
-	"apihelp-bs-inserttemplate-store-description": "모든 틀을 나열합니다. 정렬, 필터링, 쪽 번호 매기기를 허용합니다. ExtJS Store 변수를 구현합니다.",
 	"apihelp-bs-inserttemplate-store-summary": "모든 틀을 나열합니다. 정렬, 필터링, 쪽 번호 매기기를 허용합니다. ExtJS Store 변수를 구현합니다."
 }

@@ -10,6 +10,5 @@
 	"bs-insertTemplate-dialog-label-choose": "Вибрати шаблон",
 	"bs-insertTemplate-dialog-label-modify": "Змінити шаблон",
 	"bs-insertTemplate-dialog-label-preview": "Попередній перегляд",
-	"apihelp-bs-inserttemplate-store-description": "Перелічує всі шаблони. Дає можливість сортування, фільтрування та пагінації. Реалізовує параметри ExtJS Store.",
 	"apihelp-bs-inserttemplate-store-summary": "Перелічує всі шаблони. Дає можливість сортування, фільтрування та пагінації. Реалізовує параметри ExtJS Store."
 }

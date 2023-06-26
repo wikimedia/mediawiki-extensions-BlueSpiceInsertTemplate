@@ -10,6 +10,5 @@
 	"bs-insertTemplate-dialog-label-choose": "Şablon seç",
 	"bs-insertTemplate-dialog-label-modify": "Şablonu değiştir",
 	"bs-insertTemplate-dialog-label-preview": "Önizleme",
-	"apihelp-bs-inserttemplate-store-description": "Tüm şablonları listeler. Sıralama, filtreleme ve sayfalamaya izin verir. ExtJS Mağazası parametrelerini uygular.",
 	"apihelp-bs-inserttemplate-store-summary": "Tüm şablonları listeler. Sıralama, filtreleme ve sayfalamaya izin verir. ExtJS Mağazası parametrelerini uygular."
 }

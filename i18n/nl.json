@@ -11,6 +11,5 @@
 	"bs-insertTemplate-dialog-label-choose": "Sjabloon kiezen",
 	"bs-insertTemplate-dialog-label-modify": "Sjabloon aanpassen",
 	"bs-insertTemplate-dialog-label-preview": "Voorvertoning",
-	"apihelp-bs-inserttemplate-store-description": "Geeft een overzicht van alle sjablonen. Maakt sorteren, filteren en pagineren mogelijk. Implementeert ExtJS Store-parameters.",
 	"apihelp-bs-inserttemplate-store-summary": "Geeft een overzicht van alle sjablonen. Maakt sorteren, filteren en pagineren mogelijk. Implementeert ExtJS Store-parameters."
 }

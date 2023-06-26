@@ -10,6 +10,5 @@
 	"bs-insertTemplate-dialog-label-choose": "Seliger patrono",
 	"bs-insertTemplate-dialog-label-modify": "Modificar patrono",
 	"bs-insertTemplate-dialog-label-preview": "Previsualisation",
-	"apihelp-bs-inserttemplate-store-description": "Lista tote le patronos. Permitte ordinar, filtrar e paginar. Implementa parametros ExtJS Store.",
 	"apihelp-bs-inserttemplate-store-summary": "Lista tote le patronos. Permitte ordinar, filtrar e paginar. Implementa parametros ExtJS Store."
 }

@@ -11,6 +11,5 @@
 	"bs-insertTemplate-dialog-label-choose": "בחירת התבנית",
 	"bs-insertTemplate-dialog-label-modify": "שינוי התבנית",
 	"bs-insertTemplate-dialog-label-preview": "תצוגה מקדימה",
-	"apihelp-bs-inserttemplate-store-description": "רושמת את כל התבניות. מאפשרת מיון, סינון, וחלוקה לדפים. מיישמת פרמטרים של שרת ExtJS.",
 	"apihelp-bs-inserttemplate-store-summary": "רושמת את כל התבניות. מאפשרת מיון, סינון, וחלוקה לדפים. מיישמת פרמטרים של שרת ExtJS."
 }

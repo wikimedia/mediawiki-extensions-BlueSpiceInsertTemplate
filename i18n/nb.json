@@ -10,6 +10,5 @@
 	"bs-insertTemplate-dialog-label-choose": "Velg mal",
 	"bs-insertTemplate-dialog-label-modify": "Endre mal",
 	"bs-insertTemplate-dialog-label-preview": "Forhåndsvis",
-	"apihelp-bs-inserttemplate-store-description": "Lister opp alle maler. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
 	"apihelp-bs-inserttemplate-store-summary": "Lister opp alle maler. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre."
 }
