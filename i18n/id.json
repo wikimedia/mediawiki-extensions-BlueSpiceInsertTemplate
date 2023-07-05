@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veracious"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialog untuk menyisipkan templat",
+	"bs-insertTemplate-button-template-title": "Sisipkan atau sunting template",
+	"bs-insertTemplate-dialog-title": "Sisipkan templat",
+	"bs-insertTemplate-dialog-label-choose": "Pilih templat",
+	"bs-insertTemplate-dialog-label-modify": "Ubah templat",
+	"bs-insertTemplate-dialog-label-preview": "Pratayang",
+	"apihelp-bs-inserttemplate-store-summary": "Daftar semua templat. Mengizinkan pengurutan, pemfilteran, dan penomoran halaman. Menerapkan parameter ExtJS Store."
+}
