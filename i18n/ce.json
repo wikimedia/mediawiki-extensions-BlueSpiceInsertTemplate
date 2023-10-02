@@ -4,6 +4,10 @@
 			"Умар"
 		]
 	},
+	"bs-insertTemplate-desc": "Кеп чуйилларан диалог",
 	"bs-insertTemplate-button-template-title": "Чуйилла йа тайе кеп",
-	"bs-insertTemplate-dialog-title": "Чуйилла кеп"
+	"bs-insertTemplate-dialog-title": "Чуйилла кеп",
+	"bs-insertTemplate-dialog-label-choose": "Харжа кеп",
+	"bs-insertTemplate-dialog-label-modify": "Хийца кеп",
+	"bs-insertTemplate-dialog-label-preview": "Хьалххе хьажар"
 }
