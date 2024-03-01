@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lluis Cat"
+		]
+	},
+	"bs-insertTemplate-dialog-label-choose": "Tria una plantilla",
+	"bs-insertTemplate-dialog-label-modify": "Modifica la plantilla"
+}
