@@ -7,12 +7,12 @@
 			"Mglaser"
 		]
 	},
-	"bs-insertTemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
-	"bs-insertTemplate-button-template-title": "Vorlage einfügen / bearbeiten",
-	"bs-insertTemplate-dialog-title": "Vorlage einfügen",
-	"bs-insertTemplate-dialog-label-choose": "Vorlage auswählen",
+	"bs-insertTemplate-desc": "\u00dcber ein Dialogfeld werden Vorlagen angeh\u00e4ngt",
+	"bs-insertTemplate-button-template-title": "Vorlage einf\u00fcgen \/ bearbeiten",
+	"bs-insertTemplate-dialog-title": "Vorlage einf\u00fcgen",
+	"bs-insertTemplate-dialog-label-choose": "Vorlage ausw\u00e4hlen",
 	"bs-insertTemplate-dialog-label-modify": "Vorlage bearbeiten",
 	"bs-insertTemplate-dialog-label-preview": "Vorschau",
-	"apihelp-bs-inserttemplate-store-description": "Listet alle Vorlagen auf. Erlaubt die Sortierung, Filterung und Seitennummerierung. Implementiert die Parameter „ExtJS Store“.",
-	"apihelp-bs-inserttemplate-store-summary": "Listet alle Vorlagen auf. Erlaubt die Sortierung, Filterung und Seitennummerierung. Implementiert die Parameter „ExtJS Store“."
+	"apihelp-bs-inserttemplate-store-description": "Listet alle Vorlagen auf. Erlaubt die Sortierung, Filterung und Seitennummerierung. Implementiert die Parameter \u201eExtJS Store\u201c.",
+	"apihelp-bs-inserttemplate-store-summary": "Listet alle Vorlagen auf. Erlaubt die Sortierung, Filterung und Seitennummerierung. Implementiert die Parameter \u201eExtJS Store\u201c."
 }

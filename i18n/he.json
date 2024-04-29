@@ -5,12 +5,12 @@
 			"Guycn2"
 		]
 	},
-	"bs-insertTemplate-desc": "תיבת דו־שיח להוספת תבניות",
-	"bs-insertTemplate-button-template-title": "הוספת או עריכת תבנית",
-	"bs-insertTemplate-dialog-title": "הוספת תבנית",
-	"bs-insertTemplate-dialog-label-choose": "בחירת התבנית",
-	"bs-insertTemplate-dialog-label-modify": "שינוי התבנית",
-	"bs-insertTemplate-dialog-label-preview": "תצוגה מקדימה",
-	"apihelp-bs-inserttemplate-store-description": "רושמת את כל התבניות. מאפשרת מיון, סינון, וחלוקה לדפים. מיישמת פרמטרים של שרת ExtJS.",
-	"apihelp-bs-inserttemplate-store-summary": "רושמת את כל התבניות. מאפשרת מיון, סינון, וחלוקה לדפים. מיישמת פרמטרים של שרת ExtJS."
+	"bs-insertTemplate-desc": "\u05ea\u05d9\u05d1\u05ea \u05d3\u05d5\u05be\u05e9\u05d9\u05d7 \u05dc\u05d4\u05d5\u05e1\u05e4\u05ea \u05ea\u05d1\u05e0\u05d9\u05d5\u05ea",
+	"bs-insertTemplate-button-template-title": "\u05d4\u05d5\u05e1\u05e4\u05ea \u05d0\u05d5 \u05e2\u05e8\u05d9\u05db\u05ea \u05ea\u05d1\u05e0\u05d9\u05ea",
+	"bs-insertTemplate-dialog-title": "\u05d4\u05d5\u05e1\u05e4\u05ea \u05ea\u05d1\u05e0\u05d9\u05ea",
+	"bs-insertTemplate-dialog-label-choose": "\u05d1\u05d7\u05d9\u05e8\u05ea \u05d4\u05ea\u05d1\u05e0\u05d9\u05ea",
+	"bs-insertTemplate-dialog-label-modify": "\u05e9\u05d9\u05e0\u05d5\u05d9 \u05d4\u05ea\u05d1\u05e0\u05d9\u05ea",
+	"bs-insertTemplate-dialog-label-preview": "\u05ea\u05e6\u05d5\u05d2\u05d4 \u05de\u05e7\u05d3\u05d9\u05de\u05d4",
+	"apihelp-bs-inserttemplate-store-description": "\u05e8\u05d5\u05e9\u05de\u05ea \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05d1\u05e0\u05d9\u05d5\u05ea. \u05de\u05d0\u05e4\u05e9\u05e8\u05ea \u05de\u05d9\u05d5\u05df, \u05e1\u05d9\u05e0\u05d5\u05df, \u05d5\u05d7\u05dc\u05d5\u05e7\u05d4 \u05dc\u05d3\u05e4\u05d9\u05dd. \u05de\u05d9\u05d9\u05e9\u05de\u05ea \u05e4\u05e8\u05de\u05d8\u05e8\u05d9\u05dd \u05e9\u05dc \u05e9\u05e8\u05ea ExtJS.",
+	"apihelp-bs-inserttemplate-store-summary": "\u05e8\u05d5\u05e9\u05de\u05ea \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05d1\u05e0\u05d9\u05d5\u05ea. \u05de\u05d0\u05e4\u05e9\u05e8\u05ea \u05de\u05d9\u05d5\u05df, \u05e1\u05d9\u05e0\u05d5\u05df, \u05d5\u05d7\u05dc\u05d5\u05e7\u05d4 \u05dc\u05d3\u05e4\u05d9\u05dd. \u05de\u05d9\u05d9\u05e9\u05de\u05ea \u05e4\u05e8\u05de\u05d8\u05e8\u05d9\u05dd \u05e9\u05dc \u05e9\u05e8\u05ea ExtJS."
 }
