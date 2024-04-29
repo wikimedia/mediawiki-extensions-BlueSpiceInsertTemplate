@@ -4,12 +4,12 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"bs-insertTemplate-desc": "Bir şablon eklemek için iletişim kutusu",
-	"bs-insertTemplate-button-template-title": "Şablon ekle veya düzenle",
-	"bs-insertTemplate-dialog-title": "Şablon ekle",
-	"bs-insertTemplate-dialog-label-choose": "Şablon seç",
-	"bs-insertTemplate-dialog-label-modify": "Şablonu değiştir",
-	"bs-insertTemplate-dialog-label-preview": "Önizleme",
-	"apihelp-bs-inserttemplate-store-description": "Tüm şablonları listeler. Sıralama, filtreleme ve sayfalamaya izin verir. ExtJS Mağazası parametrelerini uygular.",
-	"apihelp-bs-inserttemplate-store-summary": "Tüm şablonları listeler. Sıralama, filtreleme ve sayfalamaya izin verir. ExtJS Mağazası parametrelerini uygular."
+	"bs-insertTemplate-desc": "Bir \u015fablon eklemek i\u00e7in ileti\u015fim kutusu",
+	"bs-insertTemplate-button-template-title": "\u015eablon ekle veya d\u00fczenle",
+	"bs-insertTemplate-dialog-title": "\u015eablon ekle",
+	"bs-insertTemplate-dialog-label-choose": "\u015eablon se\u00e7",
+	"bs-insertTemplate-dialog-label-modify": "\u015eablonu de\u011fi\u015ftir",
+	"bs-insertTemplate-dialog-label-preview": "\u00d6nizleme",
+	"apihelp-bs-inserttemplate-store-description": "T\u00fcm \u015fablonlar\u0131 listeler. S\u0131ralama, filtreleme ve sayfalamaya izin verir. ExtJS Ma\u011fazas\u0131 parametrelerini uygular.",
+	"apihelp-bs-inserttemplate-store-summary": "T\u00fcm \u015fablonlar\u0131 listeler. S\u0131ralama, filtreleme ve sayfalamaya izin verir. ExtJS Ma\u011fazas\u0131 parametrelerini uygular."
 }

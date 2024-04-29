@@ -4,12 +4,12 @@
 			"Ykhwong"
 		]
 	},
-	"bs-insertTemplate-desc": "틀 추가를 위한 대화 상자",
-	"bs-insertTemplate-button-template-title": "틀 추가 또는 편집",
-	"bs-insertTemplate-dialog-title": "틀 추가",
-	"bs-insertTemplate-dialog-label-choose": "틀 선택",
-	"bs-insertTemplate-dialog-label-modify": "틀 수정",
-	"bs-insertTemplate-dialog-label-preview": "미리 보기",
-	"apihelp-bs-inserttemplate-store-description": "모든 틀을 나열합니다. 정렬, 필터링, 쪽 번호 매기기를 허용합니다. ExtJS Store 변수를 구현합니다.",
-	"apihelp-bs-inserttemplate-store-summary": "모든 틀을 나열합니다. 정렬, 필터링, 쪽 번호 매기기를 허용합니다. ExtJS Store 변수를 구현합니다."
+	"bs-insertTemplate-desc": "\ud2c0 \ucd94\uac00\ub97c \uc704\ud55c \ub300\ud654 \uc0c1\uc790",
+	"bs-insertTemplate-button-template-title": "\ud2c0 \ucd94\uac00 \ub610\ub294 \ud3b8\uc9d1",
+	"bs-insertTemplate-dialog-title": "\ud2c0 \ucd94\uac00",
+	"bs-insertTemplate-dialog-label-choose": "\ud2c0 \uc120\ud0dd",
+	"bs-insertTemplate-dialog-label-modify": "\ud2c0 \uc218\uc815",
+	"bs-insertTemplate-dialog-label-preview": "\ubbf8\ub9ac \ubcf4\uae30",
+	"apihelp-bs-inserttemplate-store-description": "\ubaa8\ub4e0 \ud2c0\uc744 \ub098\uc5f4\ud569\ub2c8\ub2e4. \uc815\ub82c, \ud544\ud130\ub9c1, \ucabd \ubc88\ud638 \ub9e4\uae30\uae30\ub97c \ud5c8\uc6a9\ud569\ub2c8\ub2e4. ExtJS Store \ubcc0\uc218\ub97c \uad6c\ud604\ud569\ub2c8\ub2e4.",
+	"apihelp-bs-inserttemplate-store-summary": "\ubaa8\ub4e0 \ud2c0\uc744 \ub098\uc5f4\ud569\ub2c8\ub2e4. \uc815\ub82c, \ud544\ud130\ub9c1, \ucabd \ubc88\ud638 \ub9e4\uae30\uae30\ub97c \ud5c8\uc6a9\ud569\ub2c8\ub2e4. ExtJS Store \ubcc0\uc218\ub97c \uad6c\ud604\ud569\ub2c8\ub2e4."
 }

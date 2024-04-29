@@ -4,12 +4,12 @@
 			"Liuxinyu970226"
 		]
 	},
-	"bs-insertTemplate-desc": "用于插入模板的对话框",
-	"bs-insertTemplate-button-template-title": "插入或编辑模板",
-	"bs-insertTemplate-dialog-title": "插入模板",
-	"bs-insertTemplate-dialog-label-choose": "选择模板",
-	"bs-insertTemplate-dialog-label-modify": "修改模板",
-	"bs-insertTemplate-dialog-label-preview": "预览",
-	"apihelp-bs-inserttemplate-store-description": "列举所有模板。允许排序、过滤和分页。执行ExtJS存储的参数。",
-	"apihelp-bs-inserttemplate-store-summary": "列举所有模板。允许排序、过滤和分页。执行ExtJS存储的参数。"
+	"bs-insertTemplate-desc": "\u7528\u4e8e\u63d2\u5165\u6a21\u677f\u7684\u5bf9\u8bdd\u6846",
+	"bs-insertTemplate-button-template-title": "\u63d2\u5165\u6216\u7f16\u8f91\u6a21\u677f",
+	"bs-insertTemplate-dialog-title": "\u63d2\u5165\u6a21\u677f",
+	"bs-insertTemplate-dialog-label-choose": "\u9009\u62e9\u6a21\u677f",
+	"bs-insertTemplate-dialog-label-modify": "\u4fee\u6539\u6a21\u677f",
+	"bs-insertTemplate-dialog-label-preview": "\u9884\u89c8",
+	"apihelp-bs-inserttemplate-store-description": "\u5217\u4e3e\u6240\u6709\u6a21\u677f\u3002\u5141\u8bb8\u6392\u5e8f\u3001\u8fc7\u6ee4\u548c\u5206\u9875\u3002\u6267\u884cExtJS\u5b58\u50a8\u7684\u53c2\u6570\u3002",
+	"apihelp-bs-inserttemplate-store-summary": "\u5217\u4e3e\u6240\u6709\u6a21\u677f\u3002\u5141\u8bb8\u6392\u5e8f\u3001\u8fc7\u6ee4\u548c\u5206\u9875\u3002\u6267\u884cExtJS\u5b58\u50a8\u7684\u53c2\u6570\u3002"
 }
