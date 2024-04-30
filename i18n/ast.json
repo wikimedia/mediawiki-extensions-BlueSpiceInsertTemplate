@@ -4,12 +4,12 @@
 			"Xuacu"
 		]
 	},
-	"bs-insertTemplate-desc": "Cuadru de di\u00e1logu pa inxertar una plant\u00eda",
-	"bs-insertTemplate-button-template-title": "Inxertar o editar una plant\u00eda",
-	"bs-insertTemplate-dialog-title": "Inxertar una plant\u00eda",
-	"bs-insertTemplate-dialog-label-choose": "Escoyer plant\u00eda",
-	"bs-insertTemplate-dialog-label-modify": "Camudar plant\u00eda",
+	"bs-insertTemplate-desc": "Cuadru de diálogu pa inxertar una plantía",
+	"bs-insertTemplate-button-template-title": "Inxertar o editar una plantía",
+	"bs-insertTemplate-dialog-title": "Inxertar una plantía",
+	"bs-insertTemplate-dialog-label-choose": "Escoyer plantía",
+	"bs-insertTemplate-dialog-label-modify": "Camudar plantía",
 	"bs-insertTemplate-dialog-label-preview": "Vista previa",
-	"apihelp-bs-inserttemplate-store-description": "Llista de toles plant\u00edes. Permite ordenar, filtrar y paxinar. Encadarma los par\u00e1metros ExtJS Store.",
-	"apihelp-bs-inserttemplate-store-summary": "Llista de toles plant\u00edes. Permite ordenar, filtrar y paxinar. Encadarma los par\u00e1metros ExtJS Store."
+	"apihelp-bs-inserttemplate-store-description": "Llista de toles plantíes. Permite ordenar, filtrar y paxinar. Encadarma los parámetros ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Llista de toles plantíes. Permite ordenar, filtrar y paxinar. Encadarma los parámetros ExtJS Store."
 }

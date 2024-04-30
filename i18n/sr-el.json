@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": []
 	},
-	"bs-insertTemplate-desc": "Dijalog za ubacivanje \u0161ablona",
-	"bs-insertTemplate-button-template-title": "Umetni ili uredi \u0161ablon",
-	"bs-insertTemplate-dialog-title": "Ubacivanje \u0161ablona",
-	"bs-insertTemplate-dialog-label-choose": "Izbor \u0161ablona",
-	"bs-insertTemplate-dialog-label-modify": "Izmenjivanje \u0161ablona",
+	"bs-insertTemplate-desc": "Dijalog za ubacivanje šablona",
+	"bs-insertTemplate-button-template-title": "Umetni ili uredi šablon",
+	"bs-insertTemplate-dialog-title": "Ubacivanje šablona",
+	"bs-insertTemplate-dialog-label-choose": "Izbor šablona",
+	"bs-insertTemplate-dialog-label-modify": "Izmenjivanje šablona",
 	"bs-insertTemplate-dialog-label-preview": "Pretpregled",
-	"apihelp-bs-inserttemplate-store-description": "Spisak svih \u0161ablona. Omogu\u0107ava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre.",
-	"apihelp-bs-inserttemplate-store-summary": "Spisak svih \u0161ablona. Omogu\u0107ava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre."
+	"apihelp-bs-inserttemplate-store-description": "Spisak svih šablona. Omogućava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre.",
+	"apihelp-bs-inserttemplate-store-summary": "Spisak svih šablona. Omogućava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre."
 }

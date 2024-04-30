@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"\u062f\u064a\u0641\u064a\u062f",
-			"\u0645\u062d\u0645\u062f \u0623\u062d\u0645\u062f \u0639\u0628\u062f \u0627\u0644\u0641\u062a\u0627\u062d"
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
-	"bs-insertTemplate-desc": "\u0645\u0631\u0628\u0639 \u062d\u0648\u0627\u0631 \u0644\u0625\u062f\u0631\u0627\u062c \u0642\u0627\u0644\u0628",
-	"bs-insertTemplate-button-template-title": "\u0623\u0636\u0641 \u0623\u0648 \u0639\u062f\u0644 \u0642\u0627\u0644\u0628\u064b\u0627",
-	"bs-insertTemplate-dialog-title": "\u0625\u062f\u0631\u0627\u062c \u0627\u0644\u0642\u0627\u0644\u0628",
-	"bs-insertTemplate-dialog-label-choose": "\u0627\u062e\u062a\u064a\u0627\u0631 \u0642\u0627\u0644\u0628",
-	"bs-insertTemplate-dialog-label-modify": "\u062a\u0639\u062f\u064a\u0644 \u0627\u0644\u0642\u0627\u0644\u0628",
-	"bs-insertTemplate-dialog-label-preview": "\u0645\u0639\u0627\u064a\u0646\u0629",
-	"apihelp-bs-inserttemplate-store-description": "\u064a\u0633\u0631\u062f \u062c\u0645\u064a\u0639 \u0627\u0644\u0642\u0648\u0627\u0644\u0628\u060c \u064a\u062a\u064a\u062d \u0627\u0644\u0641\u0631\u0632 \u0648\u0627\u0644\u062a\u0635\u0641\u064a\u0629 \u0648\u062a\u0631\u0642\u064a\u0645 \u0627\u0644\u0635\u0641\u062d\u0627\u062a\u060c \u064a\u0646\u0641\u0630 \u0648\u0633\u0627\u0626\u0637 \u0645\u062e\u0632\u0646 ExtJS.",
-	"apihelp-bs-inserttemplate-store-summary": "\u064a\u0633\u0631\u062f \u062c\u0645\u064a\u0639 \u0627\u0644\u0642\u0648\u0627\u0644\u0628\u060c \u064a\u062a\u064a\u062d \u0627\u0644\u0641\u0631\u0632 \u0648\u0627\u0644\u062a\u0635\u0641\u064a\u0629 \u0648\u062a\u0631\u0642\u064a\u0645 \u0627\u0644\u0635\u0641\u062d\u0627\u062a\u060c \u064a\u0646\u0641\u0630 \u0648\u0633\u0627\u0626\u0637 \u0645\u062e\u0632\u0646 ExtJS."
+	"bs-insertTemplate-desc": "مربع حوار لإدراج قالب",
+	"bs-insertTemplate-button-template-title": "أضف أو عدل قالبًا",
+	"bs-insertTemplate-dialog-title": "إدراج القالب",
+	"bs-insertTemplate-dialog-label-choose": "اختيار قالب",
+	"bs-insertTemplate-dialog-label-modify": "تعديل القالب",
+	"bs-insertTemplate-dialog-label-preview": "معاينة",
+	"apihelp-bs-inserttemplate-store-description": "يسرد جميع القوالب، يتيح الفرز والتصفية وترقيم الصفحات، ينفذ وسائط مخزن ExtJS.",
+	"apihelp-bs-inserttemplate-store-summary": "يسرد جميع القوالب، يتيح الفرز والتصفية وترقيم الصفحات، ينفذ وسائط مخزن ExtJS."
 }
