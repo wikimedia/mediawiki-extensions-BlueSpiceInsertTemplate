@@ -7,7 +7,7 @@
 			"Yupik"
 		]
 	},
-	"bs-insertTemplate-desc": "{{desc|name=BlueSpiceInsertTemplate|url=https:\/\/www.mediawiki.org\/wiki\/Extension:BlueSpiceInsertTemplate}}",
+	"bs-insertTemplate-desc": "{{desc|name=BlueSpiceInsertTemplate|url=https://www.mediawiki.org/wiki/Extension:BlueSpiceInsertTemplate}}",
 	"bs-insertTemplate-button-template-title": "Label for the editor toolbox button",
 	"bs-insertTemplate-dialog-title": "Title text of the dialog window\n{{Identical|Insert template}}",
 	"bs-insertTemplate-dialog-label-choose": "Label of the template selection combobox",
