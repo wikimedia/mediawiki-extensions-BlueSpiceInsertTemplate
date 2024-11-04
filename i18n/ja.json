@@ -5,10 +5,10 @@
 			"もなー(偽物)"
 		]
 	},
-	"bs-insertTemplate-dialog-label-preview": "プレビュー",
 	"bs-insertTemplate-desc": "テンプレートを挿入するダイアログ",
 	"bs-insertTemplate-button-template-title": "テンプレートの挿入または編集",
 	"bs-insertTemplate-dialog-title": "テンプレートを挿入",
 	"bs-insertTemplate-dialog-label-choose": "テンプレートを選択",
-	"bs-insertTemplate-dialog-label-modify": "テンプレートの変更"
+	"bs-insertTemplate-dialog-label-modify": "テンプレートの変更",
+	"bs-insertTemplate-dialog-label-preview": "プレビュー"
 }
