@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-insertTemplate-desc": "Sablon beszúrására szolgáló párbeszédpanel",
+	"bs-insertTemplate-button-template-title": "Sablon beszúrása vagy szerkesztése",
+	"bs-insertTemplate-dialog-title": "Sablon beszúrása",
+	"bs-insertTemplate-dialog-label-choose": "Sablon kiválasztása",
+	"bs-insertTemplate-dialog-label-modify": "Sablon módosítása",
+	"bs-insertTemplate-dialog-label-preview": "Előnézet",
+	"apihelp-bs-inserttemplate-store-summary": "Listázza az összes sablont. Lehetővé teszi a rendezést, szűrést és lapozást. ExtJS Store paramétereket valósít meg."
+}
