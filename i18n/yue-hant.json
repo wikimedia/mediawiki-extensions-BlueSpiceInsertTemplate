@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"JeffreyKim"
+		]
+	},
+	"bs-insertTemplate-desc": "插入範本嘅對話框",
+	"bs-insertTemplate-button-template-title": "插入或者編輯範本",
+	"bs-insertTemplate-dialog-title": "插入範本",
+	"bs-insertTemplate-dialog-label-choose": "揀範本",
+	"bs-insertTemplate-dialog-label-modify": "修改範本",
+	"bs-insertTemplate-dialog-label-preview": "預覽",
+	"apihelp-bs-inserttemplate-store-summary": "列出所有範本，允許排序、過濾同埋分頁。實現ExtJS啲存儲參數。"
+}
