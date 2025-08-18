@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"bs-insertTemplate-desc": "Caixa de diálogo para inserir un modelo",
@@ -11,5 +12,5 @@
 	"bs-insertTemplate-dialog-label-choose": "Escoller un modelo",
 	"bs-insertTemplate-dialog-label-modify": "Modificar un modelo",
 	"bs-insertTemplate-dialog-label-preview": "Vista previa",
-	"apihelp-bs-inserttemplate-store-summary": "Lista todos os modelos. Permite ordenar, filtrar e paxinar. Proporciona parámetros de almacenamento ExtJS."
+	"apihelp-bs-inserttemplate-store-summary": "Lista todos os modelos. Permite ordenar, filtrar e paxinar. Proporciona os parámetros de ExtJS Store."
 }
