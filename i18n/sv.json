@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -9,5 +10,6 @@
 	"bs-insertTemplate-dialog-title": "Infoga mall",
 	"bs-insertTemplate-dialog-label-choose": "Välj mall",
 	"bs-insertTemplate-dialog-label-modify": "Modifiera mall",
-	"bs-insertTemplate-dialog-label-preview": "Förhandsgranska"
+	"bs-insertTemplate-dialog-label-preview": "Förhandsgranska",
+	"apihelp-bs-inserttemplate-store-summary": "Listar alla mallar. Tillåter sortering, filtrering och sidnumrering. Implementerar ExtJS Store-parametrar."
 }
