@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jrobicek"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialog pro vložení šablony",
+	"bs-insertTemplate-button-template-title": "Vložení nebo úprava šablony",
+	"bs-insertTemplate-dialog-label-choose": "Vyberte šablonu",
+	"bs-insertTemplate-dialog-label-modify": "Upravit šablonu"
+}

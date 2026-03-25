@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Къарачайлы"
+		]
+	},
+	"bs-insertTemplate-desc": "Шаблонну салыууну диалогу",
+	"bs-insertTemplate-button-template-title": "Шаблонну сал неда тюзет",
+	"bs-insertTemplate-dialog-title": "Шаблон сал",
+	"bs-insertTemplate-dialog-label-choose": "Шаблон сайла",
+	"bs-insertTemplate-dialog-label-modify": "Шаблонну тюрлендир",
+	"bs-insertTemplate-dialog-label-preview": "Ал къарау"
+}
