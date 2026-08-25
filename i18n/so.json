@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"bs-insertTemplate-desc": "Sanduuqa wadahadalka lagu gelinayo tusmada",
+	"bs-insertTemplate-button-template-title": "Geli ama wax ka beddel tusmada",
+	"bs-insertTemplate-dialog-title": "Geli tusmo",
+	"bs-insertTemplate-dialog-label-choose": "Dooro tusmada",
+	"bs-insertTemplate-dialog-label-modify": "Wax ka beddel tusmada",
+	"bs-insertTemplate-dialog-label-preview": "Hordhac",
+	"apihelp-bs-inserttemplate-store-summary": "Waxay taxaysaa dhammaan tusmada. Waxay oggolaanaysaa kala soocidda, shaandhaynta iyo bog bogaynta. Waxay hirgelisaa cabbirrada ExtJS Store."
+}
