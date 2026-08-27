@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialóg na vloženie šablóny",
+	"bs-insertTemplate-button-template-title": "Vložiť alebo upraviť šablónu",
+	"bs-insertTemplate-dialog-title": "Vložiť šablónu",
+	"bs-insertTemplate-dialog-label-choose": "Vyberte šablónu",
+	"bs-insertTemplate-dialog-label-modify": "Upraviť šablónu",
+	"bs-insertTemplate-dialog-label-preview": "Náhľad",
+	"apihelp-bs-inserttemplate-store-summary": "Vypíše všetky šablóny. Umožňuje zoraďovanie, filtrovanie a stránkovanie. Implementuje parametre ExtJS Store."
+}
