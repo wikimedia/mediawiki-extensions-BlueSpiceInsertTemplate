@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"bs-insertTemplate-desc": "د کينډۍ ورټومبلو لپاره خبربکس",
+	"bs-insertTemplate-button-template-title": "کينډۍ ورټومبل يا سمول",
+	"bs-insertTemplate-dialog-title": "کينډۍ ټومبل",
+	"bs-insertTemplate-dialog-label-choose": "کيڼډۍ خوښه کړئ",
+	"bs-insertTemplate-dialog-label-modify": "کينډۍ کې بدلون راولئ",
+	"bs-insertTemplate-dialog-label-preview": "مخکتنه",
+	"apihelp-bs-inserttemplate-store-summary": "ټولې کينډۍ لړليکوي. د اوډلو، چاڼولو او مخ کولو اجازه ورکوي. د ExtJS پلورنځي ارزښتونه پلي کوي."
+}
